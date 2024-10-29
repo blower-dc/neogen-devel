@@ -1,0 +1,22 @@
+2018-08-20 15:43:29,250 log_Default_Display INFO   SSFERunHandler : Log initialised: Default_Display_Log
+2018-08-20 15:43:29,308 log_Default_Display ERROR  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_OPTION ;line: 23507 ; !!UNEXP_ERR!! ; Non-existant OPTION error READING config_parser (SETTINGS) ; SECTION:Sampling_Strategy_Run_Settings; OPTION :Sampling_Strategy_Run_Settings_LDNe_Other_Sampling_Plans_CSV_Dict__PLAN_CODE__REPS__Default_Value
+  File "NOGP.py", line 507, in <module>
+
+  File "NOGP.py", line 492, in func_Main
+
+  File "SSFERunHandler.pyo", line 207, in func_Run_Start
+
+  File "SSFERunHandler.pyo", line 114, in func_Run_Initiation
+
+  File "SSFERunHandler.pyo", line 184, in func_Run_Processing
+
+  File "SSFEGUIHandler.pyo", line 62, in func_Main
+
+  File "object_SSFEFormMain.pyo", line 162, in __init__
+
+  File "object_SSFEFormMain.pyo", line 21358, in func_Get_Config_Data__SETTINGS
+
+  File "object_SSFEFormMain.pyo", line 23507, in func_Read_OPTION
+
+  File "object_SSFEFormMain.pyo", line 25339, in func_Error_Handler__Caught_Exceptions
+

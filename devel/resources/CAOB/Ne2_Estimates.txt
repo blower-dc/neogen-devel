@@ -1,0 +1,55 @@
+Output from NeEstimator v.2
+Starting time: Sat Jun 13 16:00:35 2015
+Input File: "AGL_B2_CAOB_X_14_43_49_Clean_AS_V1_No_Pops.gp_gspy"
+
+Number of Loci = 18
+
+LD mating model: Random
+
+Population     1 [11417_CAOB]  (Number of Individuals = 467)
+****************
+--------------------------------------------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.100       0.075       0.050       0.020       0.010       0.005         0+
+--------------------------------------------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =      452.1       452.2       452.2       452.1       452.1       452.2       452.4
+Independent Comparisons =       1082        1568        2542        5270        7471        9783       16109
+OverAll r^2 =                  0.00236     0.00231     0.00220     0.00222     0.00220     0.00220     0.00213
+Expected r^2 Sample =          0.00223     0.00223     0.00223     0.00223     0.00223     0.00223     0.00223
+Estimated Ne^ =                 2449.2      3921.5    Infinite    Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                     954.4      1301.6      3193.0      3981.1      7650.4      8672.7    Infinite
+                              Infinite    Infinite    Infinite    Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Loci              828.7      1113.5      2279.4      3084.3      5319.9      5635.8     21921.2
+                              Infinite    Infinite    Infinite    Infinite    Infinite    Infinite    Infinite
+
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =      459.0       459.0       459.0       459.0       459.0       459.0       459.0 
+Independent Alleles =             48          57          73         106         127         146         188  
+Weighted Mean D =              0.01227     0.00584     0.00247     0.00211     0.00059     0.00027     0.00172
+Estimated Neb^  =                 41.2        86.2       203.1       237.1       847.0      1836.1       292.0
+
+95% CIs for Nb:
+* Parametric                      22.0        29.1        39.9        51.0        65.5        73.9        79.0
+                                 392.3    Infinite    Infinite    Infinite    Infinite    Infinite    Infinite
+
+MOLECULAR COANCESTRY METHOD
+
+Harmonic Mean Sample Size =                                                                              459.0
+OverAll f1^    =                                                                                      -0.01080
+Estimated Neb^ =                                                                                      Infinite
+
+95% CIs for Ne^
+* Jackknife on Loci                                                                                   Infinite
+                                                                                                      Infinite
+**************************************************************************************************************
+
+Ending time: Sat Jun 13 16:00:39 2015
+-------------------------------------
+

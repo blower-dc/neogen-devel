@@ -1,0 +1,724 @@
+2019-09-06 14:07:05,556 log_Default_Display INFO   SSRunHandler   : Log initialised: Default_Display_Log
+2019-09-06 14:07:05,558 log_Default_Display INFO   SSRunHandler   : Log initialised: Debug__AgeNe_Log
+2019-09-06 14:07:05,558 log_Default_Display INFO   SSRunHandler   : -------------------------------------------------------------------------------------
+2019-09-06 14:07:05,558 log_Default_Display INFO   SSRunHandler   : >>>> Command Line Arguments <<<<
+2019-09-06 14:07:05,558 log_Default_Display INFO   SSRunHandler   : Config_INI_Path_And_File: F:\WORK\NOG\v1_3_0_6_a1\debug\Batch_Scenario_STFA_Test.ini
+2019-09-06 14:07:05,559 log_Default_Display INFO   SSRunHandler   : Output_Path: F:\WORK\NOG\v1_3_0_6_a1\debug
+2019-09-06 14:07:05,559 log_Default_Display INFO   SSRunHandler   : Processing_Step: [0]
+2019-09-06 14:07:05,559 log_Default_Display INFO   SSRunHandler   : -------------------------------------------------------------------------------------
+2019-09-06 14:07:05,559 log_Default_Display INFO   SSOutputHandler : ----------------- SimSimuPopEnvironmentInfo - BEGIN  --------------------------------------------------------------------
+2019-09-06 14:07:05,561 log_Default_Display INFO   SSOutputHandler :  Environmental Options - version: 1.1.3
+2019-09-06 14:07:05,562 log_Default_Display INFO   SSOutputHandler :  Environmental Options - revision: 4913
+2019-09-06 14:07:05,565 log_Default_Display INFO   SSOutputHandler :  Environmental Options - optimized: True
+2019-09-06 14:07:05,566 log_Default_Display INFO   SSOutputHandler :  Environmental Options - threads: 1
+2019-09-06 14:07:05,569 log_Default_Display INFO   SSOutputHandler :  Environmental Options - alleleType: short
+2019-09-06 14:07:05,571 log_Default_Display INFO   SSOutputHandler :  Environmental Options - maxAllele: 255
+2019-09-06 14:07:05,572 log_Default_Display INFO   SSOutputHandler :  Environmental Options - compiler: [MSC v.1500 64 bit (AMD64)]
+2019-09-06 14:07:05,575 log_Default_Display INFO   SSOutputHandler :  Environmental Options - date: Aug  4 2014
+2019-09-06 14:07:05,575 log_Default_Display INFO   SSOutputHandler :  Environmental Options - python: 2.7.8
+2019-09-06 14:07:05,578 log_Default_Display INFO   SSOutputHandler :  Environmental Options - platform: win32
+2019-09-06 14:07:05,579 log_Default_Display INFO   SSOutputHandler :  Environmental Options - wordsize: 64
+2019-09-06 14:07:05,582 log_Default_Display INFO   SSOutputHandler :  Environmental Options - alleleBits: 8
+2019-09-06 14:07:05,584 log_Default_Display INFO   SSOutputHandler :  Environmental Options - maxIndex: 4294967295
+2019-09-06 14:07:05,585 log_Default_Display INFO   SSOutputHandler :  Environmental Options - availableRNGs: 
+2019-09-06 14:07:05,585 log_Default_Display INFO   SSOutputHandler :        gfsr4
+2019-09-06 14:07:05,585 log_Default_Display INFO   SSOutputHandler :        mt19937
+2019-09-06 14:07:05,585 log_Default_Display INFO   SSOutputHandler :        mt19937_1999
+2019-09-06 14:07:05,585 log_Default_Display INFO   SSOutputHandler :        mt19937_1998
+2019-09-06 14:07:05,585 log_Default_Display INFO   SSOutputHandler :        r250
+2019-09-06 14:07:05,585 log_Default_Display INFO   SSOutputHandler :        rand
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        rand48
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random128-bsd
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random128-glibc2
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random128-libc5
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random256-bsd
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random256-glibc2
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random256-libc5
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random32-bsd
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random32-glibc2
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random32-libc5
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random64-bsd
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random64-glibc2
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random64-libc5
+2019-09-06 14:07:05,586 log_Default_Display INFO   SSOutputHandler :        random8-bsd
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        random8-glibc2
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        random8-libc5
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        random-bsd
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        random-glibc2
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        random-libc5
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        ranf
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        ranlxd1
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        ranlxd2
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        taus
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        taus2
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        taus113
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        tt800
+2019-09-06 14:07:05,588 log_Default_Display INFO   SSOutputHandler :        vax
+2019-09-06 14:07:05,589 log_Default_Display INFO   SSOutputHandler :  Environmental Options - debug: 
+2019-09-06 14:07:05,589 log_Default_Display INFO   SSOutputHandler :        DBG_TAGGER = False
+2019-09-06 14:07:05,589 log_Default_Display INFO   SSOutputHandler :        DBG_GENERAL = False
+2019-09-06 14:07:05,589 log_Default_Display INFO   SSOutputHandler :        DBG_OPERATOR = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_DEVEL = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_STATOR = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_MATING = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_MIGRATOR = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_WARNING = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_UTILITY = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_INITIALIZER = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_ALL = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_INDIVIDUAL = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_SELECTOR = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_POPULATION = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_PROFILE = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_MUTATOR = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_INTEROPERABILITY = False
+2019-09-06 14:07:05,591 log_Default_Display INFO   SSOutputHandler :        DBG_COMPATIBILITY = False
+2019-09-06 14:07:05,592 log_Default_Display INFO   SSOutputHandler :        DBG_SIMULATOR = False
+2019-09-06 14:07:05,592 log_Default_Display INFO   SSOutputHandler :        DBG_BATCHTESTING = False
+2019-09-06 14:07:05,592 log_Default_Display INFO   SSOutputHandler :        DBG_TRANSMITTER = False
+2019-09-06 14:07:05,592 log_Default_Display INFO   SSOutputHandler : ----------------- SimSimuPopEnvironmentInfo properties - END    ---------------------------------------------------------
+2019-09-06 14:07:05,690 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:05,693 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:05,707 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:05,813 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:05,815 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:05,834 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:05,967 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:05,967 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:05,987 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,101 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,101 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:06,125 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,246 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,246 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:06,266 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,375 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,377 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:06,394 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,494 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,496 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:06,515 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,621 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,622 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:06,640 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,742 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,743 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:06,760 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,857 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,858 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:06,884 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:06,990 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:06,992 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,009 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,107 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,108 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,125 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,226 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,226 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,243 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,342 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,344 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,361 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,459 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,460 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,477 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,578 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,578 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,596 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,694 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,697 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,713 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,821 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,822 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,839 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:07,940 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:07,941 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:07,960 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,059 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,062 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,081 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,180 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,181 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,200 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,303 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,305 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,322 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,424 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,426 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,444 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,542 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,543 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,562 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,664 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,667 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,684 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,806 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,809 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,825 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:08,934 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:08,937 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:08,953 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,055 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,056 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,075 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,177 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,178 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,196 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,301 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,302 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,321 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,423 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,424 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,440 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,543 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,545 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,562 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,671 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,673 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,690 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,793 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,795 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,812 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:09,915 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:09,917 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:09,934 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,039 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,039 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,058 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,161 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,161 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,180 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,283 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,285 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,302 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,405 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,407 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,434 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,539 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,539 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,556 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,663 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,664 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,681 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,785 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,786 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,803 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:10,911 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:10,913 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:10,933 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,068 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,069 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,085 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,188 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,190 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,207 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,311 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,312 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,329 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,434 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,436 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,466 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,578 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,579 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,598 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,703 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,704 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,721 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,829 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,831 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,848 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:11,950 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:11,953 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:11,970 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:12,082 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:12,084 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:12,105 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:12,211 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:12,213 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:12,230 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:12,338 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:12,338 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:12,357 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:12,460 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:12,461 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:12,480 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:12,582 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:12,584 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:12,601 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:12,996 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:12,996 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:13,025 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:13,502 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:13,503 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:13,519 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:14,028 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:14,029 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:14,046 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:14,546 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:14,548 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:14,565 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:15,096 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:15,098 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:15,115 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:15,589 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:15,591 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:15,608 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:16,085 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:16,085 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:16,102 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:16,609 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:16,611 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:16,628 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:17,138 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:17,138 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:17,157 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:17,658 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:17,661 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:17,677 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:18,163 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:18,164 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:18,183 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:18,684 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:18,686 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:18,703 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:19,181 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:19,183 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:19,200 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:19,711 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:19,713 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:19,730 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:20,210 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:20,211 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:20,229 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:20,733 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:20,733 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:20,750 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:21,233 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:21,233 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:21,252 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:21,753 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:21,755 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:21,773 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:22,256 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:22,257 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:22,275 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:22,753 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:22,755 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:22,773 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:23,278 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:23,279 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:23,296 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:23,776 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:23,778 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:23,795 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:24,302 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:24,303 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:24,321 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:24,798 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:24,799 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:24,816 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:25,323 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:25,325 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:25,342 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:25,822 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:25,823 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:25,841 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:26,351 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:26,351 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:26,368 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:26,839 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:26,841 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:26,858 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:27,358 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:27,359 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:27,377 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:27,848 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:27,849 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:27,867 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:28,338 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:28,338 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:28,381 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:28,849 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:28,851 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:28,868 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:29,339 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:29,341 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:29,358 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:29,855 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:29,858 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:29,874 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:30,346 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:30,348 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:30,365 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:30,871 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:30,872 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:30,888 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:31,368 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:31,368 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:31,385 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:31,892 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:31,894 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:31,911 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:32,385 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:32,387 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:32,404 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:32,904 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:32,904 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:32,921 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:33,390 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:33,391 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:33,407 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:33,901 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:33,903 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:33,920 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:34,390 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:34,391 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:34,407 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:34,884 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:34,885 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:34,904 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:35,401 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:35,401 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:35,418 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:35,905 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:35,907 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:35,924 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:36,427 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:36,428 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:36,446 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:36,917 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:36,918 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:36,936 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:37,440 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:37,440 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:37,457 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:37,953 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:37,954 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:37,971 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:38,474 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:38,476 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:38,493 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:38,992 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:38,993 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:39,010 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:39,513 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:39,513 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:39,530 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:40,013 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:40,013 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:40,030 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:40,529 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:40,529 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:40,546 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:41,020 log_Default_Display INFO   SharkSimHandler : START - Evolve Pedigree With Mating
+2019-09-06 14:07:41,022 log_Default_Display INFO   SharkSimHandler : MATING: method_MatingScheme_Diploid_Sexual_Random_POLYANDROUS_Mating_LS_WITHOUT_SELFING_with_REPLACEMENT
+2019-09-06 14:07:41,039 log_Default_Display INFO   SharkSimHandler : END - Evolve Pedigree With Mating
+2019-09-06 14:07:42,845 log_Default_Display INFO   SSResultsHandler : Aggregating results for HWE
+2019-09-06 14:07:42,846 log_Default_Display ERROR  SSResultsHandler : No files found. Expecting files on search path; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_hwe_ssim
+2019-09-06 14:07:42,846 log_Default_Display ERROR  SSResultsHandler : File specified could not be located; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_hwe_ssim
+2019-09-06 14:07:42,848 log_Default_Display INFO   SSResultsHandler : Aggregating results for LD
+2019-09-06 14:07:42,848 log_Default_Display ERROR  SSResultsHandler : No files found. Expecting files on search path; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_ld_ssim
+2019-09-06 14:07:42,848 log_Default_Display ERROR  SSResultsHandler : File specified could not be located; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_ld_ssim
+2019-09-06 14:07:42,848 log_Default_Display INFO   SSResultsHandler : Aggregating results for He
+2019-09-06 14:07:42,849 log_Default_Display ERROR  SSResultsHandler : No files found. Expecting files on search path; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_heal_ssim
+2019-09-06 14:07:42,849 log_Default_Display ERROR  SSResultsHandler : File specified could not be located; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_heal_ssim
+2019-09-06 14:07:42,849 log_Default_Display INFO   SSResultsHandler : Aggregating results for Allele Freqs
+2019-09-06 14:07:42,851 log_Default_Display ERROR  SSResultsHandler : No files found. Expecting files on search path; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_af_ssim
+2019-09-06 14:07:42,851 log_Default_Display ERROR  SSResultsHandler : File specified could not be located; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05; strFileSearchPattern = *.gp_af_ssim
+2019-09-06 14:07:42,851 log_Default_Display ERROR  SSResultsHandler : NO Results files could be located.  No Excel file written
+2019-09-06 14:07:42,864 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL stats
+2019-09-06 14:07:42,864 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - SIM
+2019-09-06 14:07:42,865 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:42,874 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - BATCH
+2019-09-06 14:07:42,875 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:42,890 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - REPLICATE EOR - End of Replicate
+2019-09-06 14:07:42,891 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:42,911 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - REPLICATE PF - Post-fertilization
+2019-09-06 14:07:42,913 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:43,025 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - VSP AC EOR - Age Class - End of Replicate
+2019-09-06 14:07:43,026 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:43,049 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - VSP AC PF - Age Class - Post-Fertilization
+2019-09-06 14:07:43,051 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:43,437 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - VSP LS EOR - Life Stage - End of Replicate
+2019-09-06 14:07:43,437 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:43,463 log_Default_Display INFO   SSResultsHandler : Aggregating results for SS LEVEL - VSP LS PF - Age Class - Post-Fertilization
+2019-09-06 14:07:43,464 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,053 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _Parent_Off_PF_Group_By_Run_By_MateCountSimTot_
+2019-09-06 14:07:46,055 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_EPNS_PF_Stats_B1_R1__.dl_EPNS_pf_ssim
+2019-09-06 14:07:46,055 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_EPNS_PF_Stats_B1_R1__.dl_EPNS_pf_ssim
+2019-09-06 14:07:46,055 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,062 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,065 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,065 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,065 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,065 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,078 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,078 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,226 log_Default_Display INFO   SSResultsHandler : Excel file written.
+2019-09-06 14:07:46,226 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _EXPERIMENT_Parent_Offspring_Ne_1__Parent_Offspring_PF_Results_
+2019-09-06 14:07:46,227 log_Default_Display INFO   SSResultsHandler : Processing Excel File: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\sim\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05__Parent_Off_PF_Group_By_Run_By_MateCountSimTot_.xlsx
+2019-09-06 14:07:46,227 log_Default_Display INFO   SSResultsHandler : Processing Excel Sheet: PO_PF_R_MCST
+2019-09-06 14:07:46,312 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:46,312 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,312 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,312 log_Default_Display INFO   SSResultsHandler : Getting actual SUBSET KEY colnames from generic ones
+2019-09-06 14:07:46,312 log_Default_Display INFO   SSResultsHandler : SUBSETing DF
+2019-09-06 14:07:46,313 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,313 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,321 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,322 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,336 log_Default_Display INFO   SSResultsHandler : Excel file written.
+2019-09-06 14:07:46,338 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_M_AGENE_D_eor_ssim
+2019-09-06 14:07:46,338 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_D_EOR_Stats_B1_R1__.dl_M_AGENE_D_eor_ssim
+2019-09-06 14:07:46,338 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_D_EOR_Stats_B1_R1__.dl_M_AGENE_D_eor_ssim
+2019-09-06 14:07:46,338 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,344 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,345 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,345 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,346 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,346 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,357 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,358 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,394 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_M_AGENE_LT_eor_ssim
+2019-09-06 14:07:46,395 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_LT_EOR_Stats_B1_R1__.dl_M_AGENE_LT_eor_ssim
+2019-09-06 14:07:46,395 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_LT_EOR_Stats_B1_R1__.dl_M_AGENE_LT_eor_ssim
+2019-09-06 14:07:46,395 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,398 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,398 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,398 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,400 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,400 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,407 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,407 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,413 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_M_AGENE_DT_eor_ssim
+2019-09-06 14:07:46,414 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_DT_EOR_Stats_B1_R1__.dl_M_AGENE_DT_eor_ssim
+2019-09-06 14:07:46,414 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_DT_EOR_Stats_B1_R1__.dl_M_AGENE_DT_eor_ssim
+2019-09-06 14:07:46,414 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,417 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,417 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,417 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,417 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,417 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,426 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,427 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,431 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_M_AGENE_FT_eor_ssim
+2019-09-06 14:07:46,434 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_FT_EOR_Stats_B1_R1__.dl_M_AGENE_FT_eor_ssim
+2019-09-06 14:07:46,434 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_M_AGENE_FT_EOR_Stats_B1_R1__.dl_M_AGENE_FT_eor_ssim
+2019-09-06 14:07:46,434 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,437 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,437 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,437 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,438 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,438 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,447 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,448 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,500 log_Default_Display INFO   SSResultsHandler : Excel file written.
+2019-09-06 14:07:46,500 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_D_eor_ssim
+2019-09-06 14:07:46,503 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_D_EOR_Stats_B1_R1__.dl_S_AGENE_D_eor_ssim
+2019-09-06 14:07:46,503 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_D_EOR_Stats_B1_R1__.dl_S_AGENE_D_eor_ssim
+2019-09-06 14:07:46,503 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,507 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,509 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,509 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,509 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,509 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,520 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,522 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,555 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_LT_eor_ssim
+2019-09-06 14:07:46,556 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_LT_EOR_Stats_B1_R1__.dl_S_AGENE_LT_eor_ssim
+2019-09-06 14:07:46,558 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_LT_EOR_Stats_B1_R1__.dl_S_AGENE_LT_eor_ssim
+2019-09-06 14:07:46,558 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,559 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,561 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,561 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,562 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,562 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,569 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,569 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,575 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_DT_eor_ssim
+2019-09-06 14:07:46,576 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_DT_EOR_Stats_B1_R1__.dl_S_AGENE_DT_eor_ssim
+2019-09-06 14:07:46,576 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_DT_EOR_Stats_B1_R1__.dl_S_AGENE_DT_eor_ssim
+2019-09-06 14:07:46,576 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,578 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,579 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,579 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,581 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,581 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,588 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,588 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,594 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_FT_eor_ssim
+2019-09-06 14:07:46,595 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_FT_EOR_Stats_B1_R1__.dl_S_AGENE_FT_eor_ssim
+2019-09-06 14:07:46,595 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_FT_EOR_Stats_B1_R1__.dl_S_AGENE_FT_eor_ssim
+2019-09-06 14:07:46,595 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,598 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,598 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,599 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,599 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,599 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,608 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,608 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:46,660 log_Default_Display INFO   SSResultsHandler : Excel file written.
+2019-09-06 14:07:46,660 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_D_pf_ssim
+2019-09-06 14:07:46,661 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_D_PF_Stats_B1_R1__.dl_S_AGENE_D_pf_ssim
+2019-09-06 14:07:46,661 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_D_PF_Stats_B1_R1__.dl_S_AGENE_D_pf_ssim
+2019-09-06 14:07:46,661 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:46,776 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:46,789 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:46,789 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:46,789 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:46,790 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:46,805 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:46,806 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:49,536 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_LT_pf_ssim
+2019-09-06 14:07:49,536 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_LT_PF_Stats_B1_R1__.dl_S_AGENE_LT_pf_ssim
+2019-09-06 14:07:49,538 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_LT_PF_Stats_B1_R1__.dl_S_AGENE_LT_pf_ssim
+2019-09-06 14:07:49,538 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:49,545 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:49,548 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:49,549 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:49,549 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:49,549 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:49,559 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:49,559 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:49,605 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_DT_pf_ssim
+2019-09-06 14:07:49,605 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_DT_PF_Stats_B1_R1__.dl_S_AGENE_DT_pf_ssim
+2019-09-06 14:07:49,605 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_DT_PF_Stats_B1_R1__.dl_S_AGENE_DT_pf_ssim
+2019-09-06 14:07:49,605 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:49,611 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:49,612 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:49,612 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:49,614 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:49,614 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:49,621 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:49,622 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:49,684 log_Default_Display INFO   SSResultsHandler : Dataframing results for: *.dl_S_AGENE_FT_pf_ssim
+2019-09-06 14:07:49,687 log_Default_Display INFO   SSResultsHandler : Processing file: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_FT_PF_Stats_B1_R1__.dl_S_AGENE_FT_pf_ssim
+2019-09-06 14:07:49,687 log_Default_Display INFO   SSResultsHandler : Aggregating file to dataframe: F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\logs\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05_S_AGENE_FT_PF_Stats_B1_R1__.dl_S_AGENE_FT_pf_ssim
+2019-09-06 14:07:49,687 log_Default_Display INFO   SSResultsHandler : Aggregating results
+2019-09-06 14:07:49,694 log_Default_Display INFO   SSResultsHandler : Transforming dataframe columns
+2019-09-06 14:07:49,694 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:49,696 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:49,696 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:49,696 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:49,706 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:49,707 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:50,954 log_Default_Display INFO   SSResultsHandler : Excel file written.
+2019-09-06 14:07:50,969 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Man_Merge_ALL_EOR__Summary_Results_ and for SHEET: M_AGENE_D_EOR_Stats
+2019-09-06 14:07:51,003 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Man_Merge_ALL_EOR__Summary_Results_ and for SHEET: M_AGENE_LT_EOR_Stats
+2019-09-06 14:07:51,038 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:51,038 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:51,046 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:51,046 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:51,046 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:51,046 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:51,061 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:51,061 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:51,062 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Man_Merge_ALL_EOR__Summary_Results_ and for SHEET: M_AGENE_DT_EOR_Stats
+2019-09-06 14:07:51,095 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:51,095 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:51,101 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:51,101 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:51,102 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:51,102 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:51,117 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:51,118 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:51,118 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Man_Merge_ALL_EOR__Summary_Results_ and for SHEET: M_AGENE_FT_EOR_Stats
+2019-09-06 14:07:51,153 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:51,153 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:51,160 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:51,160 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:51,161 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:51,161 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:51,177 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:51,178 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:51,296 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_EOR__Summary_Results_ and for SHEET: S_AGENE_D_EOR_Stats
+2019-09-06 14:07:51,332 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_EOR__Summary_Results_ and for SHEET: S_AGENE_LT_EOR_Stats
+2019-09-06 14:07:51,365 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:51,365 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:51,372 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:51,372 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:51,374 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:51,374 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:51,388 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:51,388 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:51,388 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_EOR__Summary_Results_ and for SHEET: S_AGENE_DT_EOR_Stats
+2019-09-06 14:07:51,427 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:51,427 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:51,434 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:51,434 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:51,434 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:51,434 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:51,451 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:51,453 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:51,453 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_EOR__Summary_Results_ and for SHEET: S_AGENE_FT_EOR_Stats
+2019-09-06 14:07:51,487 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:51,487 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:51,494 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:51,494 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:51,496 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:51,496 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:51,513 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:51,515 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:51,612 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_PF__Summary_Results_ and for SHEET: S_AGENE_D_PF_Stats
+2019-09-06 14:07:53,121 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_PF__Summary_Results_ and for SHEET: S_AGENE_LT_PF_Stats
+2019-09-06 14:07:54,453 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:54,453 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:54,463 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:54,463 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:54,463 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:54,463 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:54,482 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:54,483 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:54,483 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_PF__Summary_Results_ and for SHEET: S_AGENE_DT_PF_Stats
+2019-09-06 14:07:55,857 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:55,857 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:55,865 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:55,865 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:55,867 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:55,867 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:55,885 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:55,888 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:07:55,888 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Sim_Merge_ALL_PF__Summary_Results_ and for SHEET: S_AGENE_FT_PF_Stats
+2019-09-06 14:07:57,302 log_Default_Display INFO   SSResultsHandler : Processing aggregated dataframe
+2019-09-06 14:07:57,302 log_Default_Display INFO   SSResultsHandler : Merge Dataframes
+2019-09-06 14:07:57,312 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:07:57,312 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:07:57,313 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:07:57,313 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:07:57,336 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:07:57,338 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:08:02,010 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Summarise_ALL_EOR__Summary_Results_ and for SHEET: S_AGENE_EOR_MERGE
+2019-09-06 14:08:02,062 log_Default_Display INFO   SSResultsHandler : Processing dataframe
+2019-09-06 14:08:02,062 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:08:02,062 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:08:02,063 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:08:02,063 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:08:02,082 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:08:02,082 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:08:02,082 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:08:02,082 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:08:02,084 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:08:02,084 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:08:02,101 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:08:02,102 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:08:02,163 log_Default_Display INFO   SSResultsHandler : Dataframing results for: _AgeNe_Summarise_ALL_PF__Summary_Results_ and for SHEET: S_AGENE_PF_MERGE
+2019-09-06 14:08:04,392 log_Default_Display INFO   SSResultsHandler : Processing dataframe
+2019-09-06 14:08:04,392 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:08:04,394 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:08:04,394 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:08:04,394 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:08:04,421 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:08:04,424 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:08:04,424 log_Default_Display INFO   SSResultsHandler : Grouping, Calculating & Renaming results
+2019-09-06 14:08:04,426 log_Default_Display INFO   SSResultsHandler : Getting actual colnames from generic ones results
+2019-09-06 14:08:04,427 log_Default_Display INFO   SSResultsHandler : Getting actual GROUPBY KEY colnames from generic ones
+2019-09-06 14:08:04,427 log_Default_Display INFO   SSResultsHandler : Grouping results
+2019-09-06 14:08:04,460 log_Default_Display INFO   SSResultsHandler : Renaming results
+2019-09-06 14:08:04,461 log_Default_Display INFO   SSResultsHandler : Sorting dataframe
+2019-09-06 14:08:06,464 log_Default_Display INFO   SSPlotHandler  : Dataframing results for: *_AgeNe_Summarise_ALL_EOR__Summary_Results_*.xlsx and for SHEET: S_AGENE_EOR_SUMM
+2019-09-06 14:08:06,490 log_Default_Display INFO   SSPlotHandler  : Dataframing results for: *_Ne2_LDNe__Summary_EOR_Results*.xlsx and for SHEET: LDNE2_SUMM
+2019-09-06 14:08:06,492 log_Default_Display ERROR  SSPlotHandler  : File specified could not be located; str_Search_Path = F:\WORK\NOG\v1_3_0_6_a1\debug\NG_1_3_0_6_a1_Run_2019_09_06_14_07_05\sim; strFileSearchPattern = *_Ne2_LDNe__Summary_EOR_Results*.xlsx
+2019-09-06 14:08:06,492 log_Default_Display INFO   SSPlotHandler  : Dataframing results for: *SS_LEVEL_Results*.xlsx and for SHEET: BATCH
+2019-09-06 14:08:07,033 log_Default_Display INFO   SSPlotHandler  : Transforming data
+2019-09-06 14:08:07,036 log_Default_Display INFO   SSPlotHandler  : Transforming data for int_Mating_Count_Replicate_Total :112
+2019-09-06 14:08:07,038 log_Default_Display INFO   SSPlotHandler  : Creating figure

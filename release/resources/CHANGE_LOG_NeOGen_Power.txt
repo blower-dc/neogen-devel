@@ -1,0 +1,85 @@
+NAME
+--------------------------
+NeOGen
+
+AUTHORS
+--------------------------
+Dean C. Blower, Cynthia Riginos, & Jennifer Ovenden.
+
+CHANGE LOG
+--------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.6.a1 (June 2019) Released 2019-06-06
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Version number not changed. Version date changed to (Jun 2019). First update since post-published version (Aug 2018). 
+
+Changes:
+-Enhanced INSTALLER (setup.exe) program to check for existing NeOGen installation.
+-Fixed GUI (NOGP.exe) Sampling Strategy (SS) sampling plan creation. Index error with empty list of "other sampling plans".
+-Fixed GUI (NOGP.exe) Sampling Strategy widgets not initialising properly.
+-Fixed GUI (NOGP.exe) Batch scenario changing Max age on existing scenario. 
+-Fixed GUI (NOGP.exe) Switching to a project with a Batch Scenario with allele frequency file failed silently if the allele frequency file did not exist.
+-Fixed GUI (NOGP.EXE) Sampling Strategy Sampling Plan screen would not allow 4 decimal points to be entered.
+-Fixed BACKEND (NeOGen.exe) Demographic plot getting decimal conversion error for AgeNe_Ne and AgeNe_Nb  values
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.6.a1 (Aug 2018) Released 2018-08-20
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Published version.
+
+Changes:
+-Fixed Sampling Strategy (SS) sampling plan. Corrected sampling based on user proportions specified for small numbers of cohorts.
+-Fixed status: "User changed parameters." from propagating to all SS files in error.
+-Parameterise the running of alternative "accuracy line" sampling plans and additional reference sampling plans. 
+-Fixed mean and std deviation decimal spinboxes rounding to 1 decimal place. Allow 3 decimals places (settings.ini change).
+-Change default Ne2.exe zombie count to 100 (settings.ini change).
+-Fixed SS error when more than one Batch Scenario (BS) run exists (i.e. due to a BS run has failure). Now the SS always uses the most recent BS run folder.
+-When loci are imported from a file ensure the locus number parameter in the BS and the SS match the imported locus number.
+-Parameterise the running of alternative "accuracy line" sampling plans and additional reference sampling plans. 
+-Allow import of empirical loci from GENEPOP file. The allele frequencies determined from this data (excluding missing data) are used for the loci the allele frequencies create simupop POP.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.6.a1 (April 2017) Released 2018-03-16
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Alpha version for peer review.
+
+Changes:
+-Changed version specific backend data folder (i.e. v3_0_5) to generic folder (i.e. usr)
+-Changed from arithmetic mean LDNe calculation to harmonic mean LDNe calculation following R. Waples advice.
+-Sampling Strategy plot outputted as vector graphics (.svg) in addition to raster graphics (.png)
+-Fix incorrect calculation of alleles per locus BINOMIAL distribution
+-Fix GUI input error when choosing biallelic loci
+-Change alleles frequency distribution name from UNIFORM to NON_RANDOM
+-Linkage-disequilibrium genetic Ne analyses use the LDNe method of NeEstimator 2.01 (see help file for references)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.5.b2 Released 2016-08-29
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Beta version with improved installation performance & bug fixes.
+
+Changes:
+-Setup EXE: Quiet check and install of 2008 C++ Redistributable required for SimuPop
+-Fixed directory issues when spaces in installation path
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.5.b1 Released 2016-08-12
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Beta version with guided installation.
+
+Changes:
+-Created Setup EXE for guided installation
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.5b Released 2016-05-18
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Original beta version
+
+
+End of document.

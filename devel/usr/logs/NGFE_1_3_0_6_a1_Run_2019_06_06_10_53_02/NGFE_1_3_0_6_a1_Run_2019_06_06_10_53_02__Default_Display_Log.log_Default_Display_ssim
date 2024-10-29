@@ -1,0 +1,35 @@
+2019-06-06 10:53:02,036 log_Default_Display INFO   SSFERunHandler : Log initialised: Default_Display_Log
+2019-06-06 10:53:04,803 log_Default_Display ERROR  object_SSFEFormMain : ; object_SSFEFormMain.py.func_Get_Config_Data__BATCH_SCENARIO ;line: 22455 ; !!UNEXP_ERR!! ; The required file could not be imported: C:/NOG/resources\Stegostoma_fasciatum_Total_Genotypes_29Sep2014_AllAlleleFreqs.txt
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\NOGP.py", line 507, in <module>
+    func_Main(sys.argv[1:])
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\NOGP.py", line 492, in func_Main
+    obj_SSRun.func_Run_Start()
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFERunHandler.py", line 207, in func_Run_Start
+    self.func_Run_Initiation()
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFERunHandler.py", line 114, in func_Run_Initiation
+    self.func_Run_Processing(obj_SSFEParams)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFERunHandler.py", line 184, in func_Run_Processing
+    obj_GUI.func_Main()
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFEGUIHandler.py", line 66, in func_Main
+    sys.exit(app.exec_())
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 7265, in func_QComboBox_SCENARIO_NAME_Selected
+    self.comboBox_200.setCurrentIndex(int_Index) # setCurrentIndex fires the currentIndexChanged signal but only when setting it to an index other than its current one
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 7151, in func_QComboBox_SCENARIO_FILE_Selected
+    self.func_Populate_Widgits_With_Config_Data__BATCH_SCENARIO(str_Batch_Scenario_Relative_Path_And_File__Current)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 19096, in func_Populate_Widgits_With_Config_Data__BATCH_SCENARIO
+    self.func_Get_Config_Data__BATCH_SCENARIO(self.obj_Config_Batch_Scenario)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 22455, in func_Get_Config_Data__BATCH_SCENARIO
+    self.func_Error_Handler__Caught_Exceptions(int_Stack_Trace_Level, str_Message)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 25360, in func_Error_Handler__Caught_Exceptions
+    stack = traceback.extract_stack()
+

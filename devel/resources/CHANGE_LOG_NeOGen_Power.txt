@@ -1,0 +1,53 @@
+NAME
+--------------------------
+NeOGen
+
+AUTHORS
+--------------------------
+Dean C. Blower, Cynthia Riginos, & Jennifer Ovenden.
+
+CHANGE LOG
+--------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.6.a1 Released 2018-03-16
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Alpha version for peer review.
+
+Changes:
+-Changed version specific backend data folder (i.e. v3_0_5) to generic folder (i.e. usr)
+-Changed from arithmetic mean LDNe calculation to harmonic mean LDNe calculation following R. Waples advice.
+-Sampling Strategy plot outputted as vector graphics (.svg) in addition to raster graphics (.png)
+-Fix incorrect calculation of alleles per locus BINOMIAL distribution
+-Fix GUI input error when choosing biallelic loci
+-Change alleles frequency distribution name from UNIFORM to NON_RANDOM
+-Linkage-disequilibrium genetic Ne analyses use the LDNe method of NeEstimator 2.01 (see help file for references)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.5.b2 Released 2016-08-29
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Beta version with improved installation performance & bug fixes.
+
+Changes:
+-Setup EXE: Quiet check and install of 2008 C++ Redistributable required for SimuPop
+-Fixed directory issues when spaces in installation path
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.5.b1 Released 2016-08-12
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Beta version with guided installation.
+
+Changes:
+-Created Setup EXE for guided installation
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Version 1.3.0.5b Released 2016-05-18
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Summary:
+Original beta version
+
+
+End of document.

@@ -1,0 +1,1905 @@
+2018-08-20 15:08:59,121 log_Debug_Display INFO   SSFERunHandler : Log initialised: Debug_Display_Log
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\\settings.ini
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__SETTINGS ;line: 20010 ; 
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_App_Version
+	; VALUE: 1.3.0.6.a1
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_App_Name
+	; VALUE: NeOGen & NeOGen-Power Copyright 2018 Dean Blower All Rights Reserved Alpha1
+2018-08-20 15:08:59,151 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'bool'>
+	; OPTION: Settings_Run_FrontEnd_DEBUG_Show_Settings_Menu
+	; VALUE: False
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'bool'>
+	; OPTION: Settings_Run_FrontEnd_DEBUG_Logging
+	; VALUE: True
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'bool'>
+	; OPTION: Settings_Run_FrontEnd_FirstTime
+	; VALUE: False
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Settings_Run_FrontEnd_Job_Run_Monitor_Job_Status_Time_Delay_Secs
+	; VALUE: 1
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Settings_Run_FrontEnd_Job_Run_Monitor_Job_Termination_Status_Time_Delay_Secs
+	; VALUE: 5
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Config_Folder
+	; VALUE: etc
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Docs_Folder
+	; VALUE: doc
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Projects_Folder
+	; VALUE: PS
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Project_Folder_Prefix
+	; VALUE: P
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Batch_Scenario_Folder_Prefix
+	; VALUE: BS
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Sampling_Strategy_Folder_Prefix
+	; VALUE: SS
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Results_Folder_Prefix
+	; VALUE: results
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Results_Plots_Folder_Prefix
+	; VALUE: plots
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Results_Thumbnail_Images_Folder_Prefix
+	; VALUE: thumbs
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_File_Extension_Config_File
+	; VALUE: ini
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_File_Extension_Image_File
+	; VALUE: png
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'bool'>
+	; OPTION: Settings_Use_Relative_Paths
+	; VALUE: True
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_BackEnd_Relative_Path
+	; VALUE: usr\backend\src
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_BackEnd_Working_Relative_Path
+	; VALUE: var\backend\work
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_BackEnd_BINARY_Executable_Relative_Path
+	; VALUE: usr\backend\bin
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_BackEnd_ExecutableName
+	; VALUE: Main.py
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: BackEnd_Job_CPUs_To_Leave_In_Reserve
+	; VALUE: 1
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Settings_Run_BackEnd_Path_Max_Allowable_Length
+	; VALUE: 108
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Python_Executable_Path
+	; VALUE: M:\Anaconda2
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_Python_Executable_Name
+	; VALUE: python.exe
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Settings_Run_BackEnd_BINARY_Executable_Name
+	; VALUE: neogen.exe
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Run_Details
+	; OPTION Type: <type 'bool'>
+	; OPTION: Settings_Run_BackEnd_BINARY_Executable
+	; VALUE: True
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Settings_Job_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Run_Scenario_Job__Time_Delay_In_Secs_Before_Monitoring
+	; VALUE: 20
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Replicates__Default_Value
+	; VALUE: 3
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Replicates__Max
+	; VALUE: 100
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Replicates__Min
+	; VALUE: 1
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Annual_Matings_Muliplier__Default_Value
+	; VALUE: 2
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Annual_Matings_Muliplier__Max
+	; VALUE: 200
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Annual_Matings_Muliplier__Min
+	; VALUE: 2
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Burn_In_Annual_Matings__Default_Value
+	; VALUE: 6
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Burn_In_Annual_Matings__Max
+	; VALUE: 1000000
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Burn_In_Annual_Matings__Min
+	; VALUE: 1
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Temporal_Evolution_Annual_Matings__Default_Value
+	; VALUE: 6
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Temporal_Evolution_Annual_Matings__Max
+	; VALUE: 1000000
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Temporal_Evolution_Annual_Matings__Min
+	; VALUE: 1
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Population_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Size__Default_Value
+	; VALUE: 1000
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Population_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Size__Max
+	; VALUE: 10000
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Population_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Size__Min
+	; VALUE: 250
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Settings
+	; OPTION Type: <type 'bool'>
+	; OPTION: Mutation_Allowed__Default_Value
+	; VALUE: False
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Mutation_Rate__Default_Value
+	; VALUE: 0.0
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Source_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Genome_Source__Default_Value
+	; VALUE: INTERNAL
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Source_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Genome_Source_File__Default_Value
+	; VALUE: Genepop.txt
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Locus_Number_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Locus_Number__Default_Value
+	; VALUE: 100
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Locus_Number_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Locus_Number__Max
+	; VALUE: 6000
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Locus_Number_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Locus_Number__Min
+	; VALUE: 1
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Number_Alleles_Per_Locus__Default_Value
+	; VALUE: 10
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Number_Alleles_Per_Locus__Max
+	; VALUE: 500
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Number_Alleles_Per_Locus__Min
+	; VALUE: 2
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Mean_Number_Alleles_Per_Locus__Default_Value
+	; VALUE: 10
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Mean_Number_Alleles_Per_Locus__Default_Value__Max
+	; VALUE: 500
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Mean_Number_Alleles_Per_Locus__Default_Value__Min
+	; VALUE: 2
+2018-08-20 15:08:59,161 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Mean_Number_Alleles_Per_Locus__Default_Value__Decimals
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Mean_Number_Alleles_Per_Locus__Default_Value__Step_Divisor
+	; VALUE: 1000
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Standard_Deviation_Alleles_Per_Locus__Default_Value
+	; VALUE: 5
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Standard_Deviation_Alleles_Per_Locus__Default_Value__Max
+	; VALUE: 100
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Standard_Deviation_Alleles_Per_Locus__Default_Value__Min
+	; VALUE: 0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Standard_Deviation_Alleles_Per_Locus__Default_Value__Decimals
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Genome_Standard_Deviation_Alleles_Per_Locus__Default_Value__Step_Divisor
+	; VALUE: 1000
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Allele_Frequency_Distribution_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Genome_Allele_Frequency_Distribution__Default_Value
+	; VALUE: DRICHLET
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_Age__Default_Value
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_Age__Max
+	; VALUE: 200
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_Age__Min
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_mating_Age__Default_Value
+	; VALUE: 2
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_mating_Age__Max
+	; VALUE: 199
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_mating_Age__Min
+	; VALUE: 2
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Min_Mating_Age__Default_Value
+	; VALUE: 1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Min_Mating_Age__Max
+	; VALUE: 198
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Min_Mating_Age__Min
+	; VALUE: 1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_ABSOLUTE__Number_Of_Offspring_Per_Mating__Default_Value
+	; VALUE: 2
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_ABSOLUTE__Number_Of_Offspring_Per_Mating__Max
+	; VALUE: 100
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_ABSOLUTE__Number_Of_Offspring_Per_Mating__Min
+	; VALUE: 1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_POISSON__Mean_Number_Of_Offspring_Per_Mating__Default_Value
+	; VALUE: 2.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_POISSON__Mean_Number_Of_Offspring_Per_Mating__Max
+	; VALUE: 100.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_POISSON__Mean_Number_Of_Offspring_Per_Mating__Min
+	; VALUE: 1.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_POISSON__Mean_Number_Of_Offspring_Per_Mating__Decimals
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_POISSON__Mean_Number_Of_Offspring_Per_Mating__Step_Divisor
+	; VALUE: 1000
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Mean_Number_Of_Offspring_Per_Mating__Default_Value
+	; VALUE: 5
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Mean_Number_Of_Offspring_Per_Mating__Max
+	; VALUE: 100
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Mean_Number_Of_Offspring_Per_Mating__Min
+	; VALUE: 1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Mean_Number_Of_Offspring_Per_Mating__Decimals
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Mean_Number_Of_Offspring_Per_Mating__Step_Divisor
+	; VALUE: 1000
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Standard_Deviation_Of_Offspring_Per_Mating__Default_Value
+	; VALUE: 2.5
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Standard_Deviation_Of_Offspring_Per_Mating__Max
+	; VALUE: 100.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Standard_Deviation_Of_Offspring_Per_Mating__Min
+	; VALUE: 0.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Standard_Deviation_Of_Offspring_Per_Mating__Decimals
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Standard_Deviation_Of_Offspring_Per_Mating__Step_Divisor
+	; VALUE: 1000
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_UNIFORM__Min_Number_Of_Offspring_Per_Mating__Default_Value
+	; VALUE: 1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_UNIFORM__Min_Number_Of_Offspring_Per_Mating__Max
+	; VALUE: 50
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_UNIFORM__Min_Number_Of_Offspring_Per_Mating__Min
+	; VALUE: 1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_UNIFORM__Max_Number_Of_Offspring_Per_Mating__Default_Value
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_UNIFORM__Max_Number_Of_Offspring_Per_Mating__Max
+	; VALUE: 100
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_UNIFORM__Max_Number_Of_Offspring_Per_Mating__Min
+	; VALUE: 2
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_GEOMETRIC__Mean_Offspring_Per_Mating__Default_Value
+	; VALUE: 2.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_GEOMETRIC__Mean_Offspring_Per_Mating__Max
+	; VALUE: 100.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_GEOMETRIC__Mean_Offspring_Per_Mating__Min
+	; VALUE: 1.0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_GEOMETRIC__Mean_Offspring_Per_Mating__Decimals
+	; VALUE: 3
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Offspring_Distribution_GEOMETRIC__Mean_Offspring_Per_Mating__Step_Divisor
+	; VALUE: 1000
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_Settings_Ne_Estimator_External_Process_Version__Default_Value
+	; VALUE: Ne2_0_1.exe
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_Settings_LDNe_External_Process_Run_Time_Max_Seconds__Default_Value
+	; VALUE: 0
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_Settings_LDNe_External_Process_Repeat_FAILED_Max_Count__Default_Value
+	; VALUE: 100
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_Settings_LDNe_External_Process_Number_Of_Concurrent_Processes_Allowed__Default_Value
+	; VALUE: 10
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_Settings_LDNe_External_Process_Zombie_Found_Serially_Count_Allowed__Default_Value
+	; VALUE: 100
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_Settings_LDNe_Accuracy_Line_Sampling_Plan_Dict__PLAN_CODE__REPS__Default_Value
+	; VALUE: FAC:1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_Settings_LDNe_Other_Sampling_Plans_CSV_Dict__PLAN_CODE__REPS__Default_Value
+	; VALUE: PSMP:3,FEM:1,FJV:1,FMT:1,FUL:1
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Min__Default_Value
+	; VALUE: 100
+2018-08-20 15:08:59,171 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Min__Max
+	; VALUE: 5000
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Min__Min
+	; VALUE: 25
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Max__Default_Value
+	; VALUE: 400
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Max__Max
+	; VALUE: 5000
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Max__Min
+	; VALUE: 25
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Increment__Default_Value
+	; VALUE: 100
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Increment__Max
+	; VALUE: 5000
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Sample_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Increment__Min
+	; VALUE: 1
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Min__Default_Value
+	; VALUE: 10
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Min__Max
+	; VALUE: 3000
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Min__Min
+	; VALUE: 5
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Max__Default_Value
+	; VALUE: 30
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Max__Max
+	; VALUE: 3000
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Max__Min
+	; VALUE: 5
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Increment__Default_Value
+	; VALUE: 10
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Increment__Max
+	; VALUE: 3000
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Stategy__Locus_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Increment__Min
+	; VALUE: 1
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Settings
+	; OPTION Type: <type 'float'>
+	; OPTION: LDNe_FULL_Estimates__Percentage_Of_Loci_To_Keep
+	; VALUE: 100.0
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: LDNe_Random_Sample_Replicates__Default_Value
+	; VALUE: 10
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: LDNe_Random_Sample_Replicates__Max
+	; VALUE: 100
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Settings
+	; OPTION Type: <type 'int'>
+	; OPTION: LDNe_Random_Sample_Replicates__Min
+	; VALUE: 1
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Context_Help
+	; OPTION Type: <type 'bool'>
+	; OPTION: Context_Help_Display_At_Start
+	; VALUE: True
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Context_Help
+	; OPTION Type: <type 'float'>
+	; OPTION: Context_Help_Zoom_Factor
+	; VALUE: 1.21
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QToolBox__MainToolBar__Menu_Item_Settings_Preferences_Clicked ;line: 6014 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QToolBox__MainToolBox__CurrentChanged ;line: 6071 ; ; int_Current_Tab_Index: 1
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Save_Check__Should_I_Save_And_Continue__Scenario ;line: 11621 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Save_Check__Should_I_Save_And_Continue__Sampling_Strategy ;line: 11528 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Max_Age__SetValue ;line: 7443 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Max_Age__SetValue ;line: 7430 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Max_Mating_Age__SetValue ;line: 7541 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Max_Mating_Age__SetValue ;line: 7528 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Min_Mating_Age__SetValue ;line: 7614 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Min_Mating_Age__SetValue ;line: 7601 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Offspring_Distribution_Selection ;line: 12703 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Offspring_Distribution_0
+	; VALUE: Please select...
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,180 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_34; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_34; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_34; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_28; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_38; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_38; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_38; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_30; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_35; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_35; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_35; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_29; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_7; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_8; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_37; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_37; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_37; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_42; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_42; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_42; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Species_Offspring_Distribution_ABSOLUTE_Offspring_Number__SetValue ;line: 7699 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Species_Offspring_Distribution_ABSOLUTE_Offspring_Number__SetValue ;line: 7699 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_POISSON_Offspring_Mean_Number__SetValue ;line: 7759 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Species_Offspring_Distribution_POISSON_Offspring_Mean_Number__SetValue ;line: 7777 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_POISSON_Offspring_Mean_Number__SetValue ;line: 7766 ; ; int_Value:1000; floatScaled_Value: 1.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Species_Offspring_Distribution_POISSON_Offspring_Mean_Number__SetValue ;line: 7777 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_POISSON_Offspring_Mean_Number__SetValue ;line: 7759 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_POISSON_Offspring_Mean_Number__SetValue ;line: 7766 ; ; int_Value:2000; floatScaled_Value: 2.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_BINOMIAL_Offspring_Mean_Number__SetValue ;line: 7839 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Species_Offspring_Distribution_BINOMIAL_Offspring_Mean_Number__SetValue ;line: 7857 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_BINOMIAL_Offspring_Mean_Number__SetValue ;line: 7846 ; ; int_Value:1000; floatScaled_Value: 1.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Species_Offspring_Distribution_BINOMIAL_Offspring_Mean_Number__SetValue ;line: 7857 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_BINOMIAL_Offspring_Mean_Number__SetValue ;line: 7839 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_BINOMIAL_Offspring_Mean_Number__SetValue ;line: 7846 ; ; int_Value:5000; floatScaled_Value: 5.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Species_Offspring_Distribution_BINOMIAL_Offspring_StdDev__SetValue ;line: 7937 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_BINOMIAL_Offspring_StdDev__SetValue ;line: 7919 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_BINOMIAL_Offspring_StdDev__SetValue ;line: 7926 ; ; int_Value:2500; floatScaled_Value: 2.5
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_UNIFORM_Offspring_Number_Min__SetValue ;line: 7999 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Species_Offspring_Distribution_UNIFORM_Offspring_Number_Min__SetValue ;line: 8013 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_UNIFORM_Offspring_Number_Max__SetValue ;line: 8073 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Species_Offspring_Distribution_UNIFORM_Offspring_Number_Max__SetValue ;line: 8087 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Species_Offspring_Distribution_UNIFORM_Offspring_Number_Max__SetValue ;line: 8087 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_UNIFORM_Offspring_Number_Max__SetValue ;line: 8073 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_GEOMETRIC_Offspring_Mean_Number__SetValue ;line: 8147 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Species_Offspring_Distribution_GEOMETRIC_Offspring_Mean_Number__SetValue ;line: 8165 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_GEOMETRIC_Offspring_Mean_Number__SetValue ;line: 8154 ; ; int_Value:1000; floatScaled_Value: 1.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Species_Offspring_Distribution_GEOMETRIC_Offspring_Mean_Number__SetValue ;line: 8165 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_GEOMETRIC_Offspring_Mean_Number__SetValue ;line: 8147 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Species_Offspring_Distribution_GEOMETRIC_Offspring_Mean_Number__SetValue ;line: 8154 ; ; int_Value:2000; floatScaled_Value: 2.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Demography_Population_Size__SetValue ;line: 8232 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Demography_Population_Size__SetValue ;line: 8246 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Demography_Population_Size__SetValue ;line: 8246 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Demography_Population_Size__SetValue ;line: 8232 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Demography_Population_Size__SetValue ;line: 8246 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Allele_Frequency_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Allele_Frequency_Distribution_0
+	; VALUE: Please select...
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Alleles_Per_Locus_Distribution_0
+	; VALUE: Please select...
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Locus_Number__SetValue ;line: 8366 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Genome_Locus_Number__SetValue ;line: 8380 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Genome_Locus_Number__SetValue ;line: 8380 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Locus_Number__SetValue ;line: 8366 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_UNIFORM_Number_Alleles_Per_Locus__SetValue ;line: 8466 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Genome_Alleles_Per_Locus_Distribution_UNIFORM_Number_Alleles_Per_Locus__SetValue ;line: 8480 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_UNIFORM_Number_Alleles_Per_Locus__SetValue ;line: 8466 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Genome_Alleles_Per_Locus_Distribution_UNIFORM_Number_Alleles_Per_Locus__SetValue ;line: 8480 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_Mean_Number_Alleles_Per_Locus__SetValue ;line: 8531 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_Mean_Number_Alleles_Per_Locus__SetValue ;line: 8549 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_Mean_Number_Alleles_Per_Locus__SetValue ;line: 8538 ; ; int_Value:2000; floatScaled_Value: 2.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_Mean_Number_Alleles_Per_Locus__SetValue ;line: 8549 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_Mean_Number_Alleles_Per_Locus__SetValue ;line: 8531 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_Mean_Number_Alleles_Per_Locus__SetValue ;line: 8538 ; ; int_Value:10000; floatScaled_Value: 10.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QDoubleSpinBox__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_StdDev_Alleles_Per_Locus__SetValue ;line: 8630 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_StdDev_Alleles_Per_Locus__SetValue ;line: 8612 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_BINOMIAL_StdDev_Alleles_Per_Locus__SetValue ;line: 8619 ; ; int_Value:5000; floatScaled_Value: 5.0
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicates__SetValue ;line: 8716 ; 
+2018-08-20 15:08:59,190 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicates__SetValue ;line: 8702 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicates__SetValue ;line: 8716 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicates__SetValue ;line: 8702 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicate_Length_Burn_In__SetValue ;line: 8790 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicate_Length_Burn_In__SetValue ;line: 8776 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicate_Length_Burn_In__SetValue ;line: 8790 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicate_Length_Burn_In__SetValue ;line: 8776 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8883 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8869 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8869 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8883 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8883 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8869 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9431 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9418 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9431 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9418 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Max__SetValue ;line: 9482 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Max__SetValue ;line: 9469 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Max__SetValue ;line: 9469 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Max__SetValue ;line: 9482 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Max__SetValue ;line: 9482 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Increment__SetValue ;line: 9534 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Increment__SetValue ;line: 9521 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Increment__SetValue ;line: 9534 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Increment__SetValue ;line: 9521 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9590 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9577 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9590 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9577 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Max__SetValue ;line: 9641 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Max__SetValue ;line: 9628 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Max__SetValue ;line: 9641 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Max__SetValue ;line: 9628 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9691 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9678 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9691 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9678 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_43; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_LDNe_Replicates__SetValue ;line: 9759 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_LDNe_Replicates__SetValue ;line: 9746 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_LDNe_Replicates__SetValue ;line: 9746 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_LDNe_Replicates__SetValue ;line: 9759 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_PROJECTS_add ;line: 6785 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\Projects.ini
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_File_List_Of_PROJECT_from_PROJECTS ;line: 24985 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_PROJECT_FILE_From_PROJECTS_Selected ;line: 6874 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Populate_Widgits_With_Config_Data__PROJECT ;line: 18897 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\Project_20180320114636.ini
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__PROJECT ;line: 21742 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Project_Name
+	; VALUE: Zebra Shark Example
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Project_UID
+	; VALUE: 20180320114636
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Project_Species_Name
+	; VALUE: Stegostoma fasciatum
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_SCENARIOS_add ;line: 7023 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\Project_20180320114636.ini
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_File_List_Of_SCENARIOS_from_PROJECT ;line: 25037 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_SCENARIO_FILE_Selected ;line: 7131 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Populate_Widgits_With_Config_Data__BATCH_SCENARIO ;line: 19059 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\BS_20180320121652\Batch_Scenario_20180320121652.ini
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__BATCH_SCENARIO ;line: 22109 ; 
+2018-08-20 15:08:59,200 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Project_Name
+	; VALUE: Zebra Shark Example
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Project_UID
+	; VALUE: 20180320114636
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Project_Species_Name
+	; VALUE: Stegostoma fasciatum
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Scenario_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Scenario_Name
+	; VALUE: Simulated SNPs Scenario
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Scenario_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Scenario_UID
+	; VALUE: 20180320121652
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Batch_Settings_File
+	; VALUE: P_20180320114636\BS_20180320121652\Batch_Settings_20180320121652.ini
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Replicates
+	; VALUE: 3
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Burn_In_Annual_Matings
+	; VALUE: 56
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Temporal_Evolution_Annual_Matings
+	; VALUE: 56
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Population_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Size
+	; VALUE: 1400
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Number
+	; VALUE: 1000
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Alleles_Per_Locus_Distribution
+	; VALUE: UNIFORM
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Number_Alleles_Per_Locus
+	; VALUE: 2
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Allele_Frequency_Distribution
+	; VALUE: DRICHLET
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_Age
+	; VALUE: 28
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_mating_Age
+	; VALUE: 28
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History
+	; OPTION Type: <type 'int'>
+	; OPTION: Min_Mating_Age
+	; VALUE: 8
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Offspring_Distribution
+	; VALUE: BINOMIAL
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Details
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Mean_Number_Of_Offspring_Per_Mating
+	; VALUE: 5.0
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Details
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Standard_Deviation_Of_Offspring_Per_Mating
+	; VALUE: 2.5
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Max_Age__SetValue ;line: 7430 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Max_Age__SetValue ;line: 7443 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_34; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_34; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_34; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_28; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_38; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_38; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_38; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_30; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_35; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_35; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_35; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_29; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_7; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_8; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_37; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_37; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_37; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_42; QEvent.EnabledChange: 98
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_42; QEvent.EnabledChange: 98; str_Object_Name: horizontalSlider_42; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicate_Length_Burn_In__SetValue ;line: 8790 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicate_Length_Burn_In__SetValue ;line: 8776 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8883 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Simulation_Batch_Replicate_Length_Temporal_Evolution__SetValue ;line: 8869 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Max_Mating_Age__SetValue ;line: 7528 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Max_Mating_Age__SetValue ;line: 7541 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Min_Mating_Age__SetValue ;line: 7601 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Min_Mating_Age__SetValue ;line: 7614 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Offspring_Distribution_Selection ;line: 12703 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Offspring_Distribution_3
+	; VALUE: BINOMIAL
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Demography_Population_Size__SetValue ;line: 8232 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Demography_Population_Size__SetValue ;line: 8246 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,210 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Locus_Number__SetValue ;line: 8366 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Genome_Locus_Number__SetValue ;line: 8380 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9691 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9678 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Alleles_Per_Locus_Distribution_1
+	; VALUE: UNIFORM
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Scenario_Genome_Alleles_Per_Locus_Distribution_UNIFORM_Number_Alleles_Per_Locus__SetValue ;line: 8466 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Scenario_Genome_Alleles_Per_Locus_Distribution_UNIFORM_Number_Alleles_Per_Locus__SetValue ;line: 8480 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Allele_Frequency_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Allele_Frequency_Distribution_2
+	; VALUE: DRICHLET
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Update_Config__Genome_Allele_Frequency_Distribution ;line: 14082 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Populate_Widgits_With_Config_Data__BATCH_SETTINGS ;line: 18935 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\BS_20180320121652\Batch_Settings_20180320121652.ini
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__BATCH_SETTINGS ;line: 21835 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Scenario_Name
+	; VALUE: Simulated SNPs Scenario
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Scenario_UID
+	; VALUE: 20180320121652
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Pop_Saving
+	; OPTION Type: <type 'int'>
+	; OPTION: Replicate_Mating_Count_At_Which_Pop_Saving_Starts
+	; VALUE: 112
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Pop_Sampling
+	; OPTION Type: <type 'int'>
+	; OPTION: Post_Sim_Pop_Sampling_Start_At_Replicate_Mating_Count
+	; VALUE: 112
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Run_Job__Display_Job_Status ;line: 18517 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_SAMPLING_STATEGIES_add ;line: 9146 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\BS_20180320121652\Batch_Scenario_20180320121652.ini
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_File_List_Of_SAMPLING_STRATEGIES_from_BATCH_SCENARIO ;line: 25089 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_SAMPLING_STRATEGY_FILE_Selected ;line: 9226 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Populate_Widgits_With_Config_Data__SAMPLING_STRATEGY ;line: 19434 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\BS_20180320121652\SS_20180320122556\Sampling_Strategy_20180320122556.ini
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__SAMPLING_STRATEGY ;line: 22700 ; 
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_Ne_Estimator_External_Process_Version
+	; VALUE: Ne2_0_1.exe
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,220 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Run_Time_Max_Seconds
+	; VALUE: 0
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Repeat_FAILED_Max_Count
+	; VALUE: 100
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Number_Of_Concurrent_Processes_Allowed
+	; VALUE: 10
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Zombie_Found_Serially_Count_Allowed
+	; VALUE: 20
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_LDNe_Accuracy_Line_Sampling_Plan_Dict__PLAN_CODE__REPS
+	; VALUE: FAC:1
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_LDNe_Other_Sampling_Plans_CSV_Dict__PLAN_CODE__REPS
+	; VALUE: PSMP:3,FMT:1,FEM:1,FJV:1,FUL:1
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Name
+	; VALUE: Sampling Strategy 1
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_UID
+	; VALUE: 20180320122556
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Min
+	; VALUE: 50
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Max
+	; VALUE: 200
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Increment
+	; VALUE: 50
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Locus_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Min
+	; VALUE: 50
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Locus_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Max
+	; VALUE: 150
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Locus_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Increment
+	; VALUE: 50
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Details
+	; OPTION Type: <type 'float'>
+	; OPTION: LDNe_FULL_Estimates__Percentage_Of_Loci_To_Keep
+	; VALUE: 100.0
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: LDNe_Random_Sample_Replicates
+	; VALUE: 20
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: LDNe_PCrit_To_Get
+	; VALUE: 0.02
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Proportion_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sample_Proportions_Source
+	; VALUE: USER_AGE_COHORTS
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9418 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9431 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Increment__SetValue ;line: 9521 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Increment__SetValue ;line: 9534 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9577 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9590 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Max__SetValue ;line: 9628 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Max__SetValue ;line: 9641 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Associated_Sliders_Range_And_Value__Scenario__Genome_Locus_Number ;line: 13899 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9577 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9590 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Associated_Sliders_Range_And_Value__Scenario__Population_Size ;line: 13346 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Max__SetValue ;line: 9482 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Max__SetValue ;line: 9469 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9418 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9431 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_LDNe_Replicates__SetValue ;line: 9746 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_LDNe_Replicates__SetValue ;line: 9759 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Run_Job__Display_Job_Status ;line: 18517 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6256 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6263 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6269 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6272 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6275 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6278 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6281 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6284 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6287 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6290 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6340 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6356 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6362 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6366 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6370 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6452 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6256 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6263 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6269 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6272 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6275 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6278 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6281 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6284 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6287 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6290 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6340 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6356 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6362 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6366 ; 
+2018-08-20 15:08:59,230 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6370 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6452 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6256 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6263 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6269 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6272 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6275 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6278 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6281 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6284 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6287 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6290 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6340 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6356 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6362 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6366 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6370 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6452 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6256 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6263 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6269 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6272 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6275 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6278 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6281 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6284 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6287 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6290 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6340 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6356 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6362 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6366 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6370 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__QToolBox__MainToolBox__All_Pages ;line: 6452 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_SCENARIOS_To_Clone_add ;line: 7291 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\Project_20180320114636.ini
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_File_List_Of_SCENARIOS_from_PROJECT ;line: 25037 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QComboBox_SCENARIO_Clone_FILE_Selected ;line: 7365 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Populate_Widgits_With_Config_Data__BATCH_SCENARIO ;line: 19059 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\BS_20180320121652\Batch_Scenario_20180320121652.ini
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__BATCH_SCENARIO ;line: 22109 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Project_Name
+	; VALUE: Zebra Shark Example
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Project_UID
+	; VALUE: 20180320114636
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Project_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Project_Species_Name
+	; VALUE: Stegostoma fasciatum
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Scenario_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Scenario_Name
+	; VALUE: Simulated SNPs Scenario
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Scenario_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Scenario_UID
+	; VALUE: 20180320121652
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Settings
+	; OPTION Type: <type 'str'>
+	; OPTION: Batch_Settings_File
+	; VALUE: P_20180320114636\BS_20180320121652\Batch_Settings_20180320121652.ini
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Replicates
+	; VALUE: 3
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Burn_In_Annual_Matings
+	; VALUE: 56
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Simulation_Batch_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Temporal_Evolution_Annual_Matings
+	; VALUE: 56
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Population_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Population_Size
+	; VALUE: 1400
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Number
+	; VALUE: 1000
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Alleles_Per_Locus_Distribution
+	; VALUE: UNIFORM
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Number_Alleles_Per_Locus
+	; VALUE: 2
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Allele_Frequency_Distribution
+	; VALUE: DRICHLET
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_Age
+	; VALUE: 28
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History
+	; OPTION Type: <type 'int'>
+	; OPTION: Max_mating_Age
+	; VALUE: 28
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Life_History
+	; OPTION Type: <type 'int'>
+	; OPTION: Min_Mating_Age
+	; VALUE: 8
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Offspring_Distribution
+	; VALUE: BINOMIAL
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Details
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Mean_Number_Of_Offspring_Per_Mating
+	; VALUE: 5.0
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Details
+	; OPTION Type: <type 'float'>
+	; OPTION: Offspring_Distribution_BINOMIAL__Standard_Deviation_Of_Offspring_Per_Mating
+	; VALUE: 2.5
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,240 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Offspring_Distribution_Selection ;line: 12703 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Offspring_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Offspring_Distribution_3
+	; VALUE: BINOMIAL
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Alleles_Per_Locus_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Alleles_Per_Locus_Distribution_1
+	; VALUE: UNIFORM
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Genome_Allele_Frequency_Distribution_List
+	; OPTION Type: <type 'str'>
+	; OPTION: Allele_Frequency_Distribution_2
+	; VALUE: DRICHLET
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Update_Config__Genome_Allele_Frequency_Distribution ;line: 14082 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Populate_Widgits_With_Config_Data__BATCH_SETTINGS ;line: 18935 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\BS_20180320121652\Batch_Settings_20180320121652.ini
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__BATCH_SETTINGS ;line: 21835 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Scenario_Name
+	; VALUE: Simulated SNPs Scenario
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Scenario_UID
+	; VALUE: 20180320121652
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Pop_Saving
+	; OPTION Type: <type 'int'>
+	; OPTION: Replicate_Mating_Count_At_Which_Pop_Saving_Starts
+	; VALUE: 112
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Batch_Setting_Pop_Sampling
+	; OPTION Type: <type 'int'>
+	; OPTION: Post_Sim_Pop_Sampling_Start_At_Replicate_Mating_Count
+	; VALUE: 112
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Run_Job__Display_Job_Status ;line: 18517 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Populate_Widgits_With_Config_Data__SAMPLING_STRATEGY ;line: 19434 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25142 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 25150 ; Read file: A:\WORK\NOG\v1_3_0_6_a1\devel\usr\etc\PS\P_20180320114636\BS_20180320121652\SS_20180320122556\Sampling_Strategy_20180320122556.ini
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Get_Config_Data__SAMPLING_STRATEGY ;line: 22700 ; 
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_Ne_Estimator_External_Process_Version
+	; VALUE: Ne2_0_1.exe
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Run_Time_Max_Seconds
+	; VALUE: 0
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Repeat_FAILED_Max_Count
+	; VALUE: 100
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Number_Of_Concurrent_Processes_Allowed
+	; VALUE: 10
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_Run_LDNe_External_Process_Zombie_Found_Serially_Count_Allowed
+	; VALUE: 20
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_LDNe_Accuracy_Line_Sampling_Plan_Dict__PLAN_CODE__REPS
+	; VALUE: FAC:1
+2018-08-20 15:08:59,250 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Run_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Run_LDNe_Other_Sampling_Plans_CSV_Dict__PLAN_CODE__REPS
+	; VALUE: PSMP:3,FMT:1,FEM:1,FJV:1,FUL:1
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sampling_Strategy_Name
+	; VALUE: Sampling Strategy 1
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sampling_Strategy_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sampling_Strategy_UID
+	; VALUE: 20180320122556
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Min
+	; VALUE: 50
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Max
+	; VALUE: 200
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Sample_Range_Increment
+	; VALUE: 50
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Locus_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Min
+	; VALUE: 50
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Locus_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Max
+	; VALUE: 150
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Locus_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: Locus_Range_Increment
+	; VALUE: 50
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Details
+	; OPTION Type: <type 'float'>
+	; OPTION: LDNe_FULL_Estimates__Percentage_Of_Loci_To_Keep
+	; VALUE: 100.0
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Details
+	; OPTION Type: <type 'int'>
+	; OPTION: LDNe_Random_Sample_Replicates
+	; VALUE: 20
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: LDNe_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: LDNe_PCrit_To_Get
+	; VALUE: 0.02
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Sample_Proportion_Details
+	; OPTION Type: <type 'str'>
+	; OPTION: Sample_Proportions_Source
+	; VALUE: USER_AGE_COHORTS
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9418 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Sample_Range_Min__SetValue ;line: 9431 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9577 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Min__SetValue ;line: 9590 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QHorizontalSlider__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9678 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QSpinBox__Sampling_Strategy_Locus_Range_Increment__SetValue ;line: 9691 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Associated_Sliders_Range_And_Value__Scenario__Genome_Locus_Number ;line: 13899 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Associated_Sliders_Range_And_Value__Scenario__Population_Size ;line: 13346 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Set_Parameter_Status ;line: 19842 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Enable_Widgets__Tab__Batch_Scenario ;line: 19974 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Run_Job__Display_Job_Status ;line: 18517 ; 
+2018-08-20 15:08:59,260 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_QToolBox__MainToolBar__Menu_Item_Help_Show_Context_specific_Help_Clicked ;line: 6045 ; 
+2018-08-20 15:08:59,288 log_Debug_Display DEBUG  ConfigHandler  : >>; ; object_SSConfigFiles.pyo.func_Read_Config_File_OPTION
+2018-08-20 15:08:59,288 log_Debug_Display DEBUG  ConfigHandler  : OPTION Read 
+	; SECTION: Context_Help_Files
+	; OPTION Type: <type 'str'>
+	; OPTION: Context_Help_File_Start_Splash_Screen
+	; VALUE: NeOGen_Context_Specific_Help.htm
+2018-08-20 15:08:59,288 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.Polish: 75
+2018-08-20 15:08:59,288 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.Polish: 75
+2018-08-20 15:08:59,288 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.Polish: 75
+2018-08-20 15:08:59,288 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.Move: 13
+2018-08-20 15:08:59,288 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.Resize: 14
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.Show: 17
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.ShowToParent: 26
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.Move: 13
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.Resize: 14
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.Show: 17
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.ShowToParent: 26
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.Move: 13
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.Resize: 14
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.Show: 17
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.ShowToParent: 26
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_31; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_31; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_31; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_32; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_32; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_32; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_33; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_33; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_33; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_24; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_25; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_27; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_27; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_27; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_27; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_23; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_30; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,298 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_30; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_30; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_9; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_28; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_28; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_28; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_29; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_29; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_29; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_5; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_6; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_40; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_40; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_40; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_39; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_39; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_39; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_26; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_10; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_41; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_41; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_41; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_34; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_34; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_34; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_28; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_38; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_38; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_38; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_30; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_35; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_35; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_35; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_29; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_7; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QDoubleSpinBox; doubleSpinBox_8; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_37; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_37; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_37; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_42; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_42; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_42; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_37; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_38; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_39; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_45; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_45; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_45; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider_STEPPED_By_MaxAge ;line: 2873 ; EVENT @ QSlider; horizontalSlider_46; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider_STEPPED_By_MaxAge ;line: 2873 ; EVENT @ QSlider; horizontalSlider_47; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_41; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_42; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_49; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_49; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_49; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_50; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_50; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_50; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_52; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_52; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_52; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_53; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_53; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_53; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_44; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_45; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_43; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2712 ; EVENT @ QSlider; horizontalSlider_54; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_horizontalSlider ;line: 2724 ; EVENT @ QSlider; horizontalSlider_54; QEvent.PolishRequest: 74; str_Object_Name: horizontalSlider_54; self.str_SpinBox_Engaged_Name: ; bool_Companion_Engaged: 
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__LINKED_spinBox ;line: 2615 ; EVENT @ QSpinBox; spinBox_46; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.PolishRequest: 74
+2018-08-20 15:08:59,308 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.PolishRequest: 74
+2018-08-20 15:09:20,105 log_Debug_Display DEBUG  object_SSFEFormMain : ; object_SSFEFormMain.pyo.closeEvent ;line: 1712 ; User has clicked the red x on the main window
+2018-08-20 15:09:20,115 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.WindowDeactivate: 25
+2018-08-20 15:09:20,115 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.WindowDeactivate: 25
+2018-08-20 15:09:20,115 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.WindowDeactivate: 25
+2018-08-20 15:09:20,115 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_210 ;line: 3330 ; EVENT @ QComboBox; comboBox_210; QEvent.Hide: 18
+2018-08-20 15:09:20,115 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_310 ;line: 3427 ; EVENT @ QComboBox; comboBox_310; QEvent.Hide: 18
+2018-08-20 15:09:20,115 log_Debug_Display DEBUG  object_SSFEFormMain : EVENT ; object_SSFEFormMain.pyo.eventFilter__comboBox_110 ;line: 3228 ; EVENT @ QComboBox; comboBox_110; QEvent.Hide: 18

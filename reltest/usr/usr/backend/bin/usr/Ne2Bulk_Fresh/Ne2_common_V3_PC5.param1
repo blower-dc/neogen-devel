@@ -1,0 +1,10 @@
+1		* Method(s) expressed by M and possibly T (details below)
+1		* number of (positive) critical values C
+0.05 -1		* Critical values (have this line only if C > 0)
+1  0  1  1	* Methods to have outputs in tabular-format (details below)
+1		* 1 for output Confidence Intervals, 0 if none
+0		* mating model, 0: random, 1: monogamy (if LD is included)
+0		* max individual to be processed per pop, 0 for no limit
+0		* Pop. range to run, given in pair. No limit if the first = 0
+0		* Loc. ranges to run, given in pairs. No limit if the 1st = 0
+Ne2_common_V3_PC5.out	* name for common (main) output file

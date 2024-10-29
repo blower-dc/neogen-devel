@@ -1,0 +1,13 @@
+2018-08-20 16:54:44,348 log_Default_Display INFO   SSFERunHandler : Log initialised: Default_Display_Log
+2018-08-20 16:54:49,826 log_Default_Display ERROR  object_SSFEFormMain : !!UNHAN_ERR!! ; Uncaught exception
+Traceback (most recent call last):
+  File "NOGP.py", line 507, in <module>
+  File "NOGP.py", line 492, in func_Main
+  File "SSFERunHandler.pyo", line 207, in func_Run_Start
+  File "SSFERunHandler.pyo", line 114, in func_Run_Initiation
+  File "SSFERunHandler.pyo", line 184, in func_Run_Processing
+  File "SSFEGUIHandler.pyo", line 62, in func_Main
+  File "object_SSFEFormMain.pyo", line 218, in __init__
+  File "object_SSFEFormMain.pyo", line 19485, in func_Populate_Widgits_With_Config_Data__SAMPLING_STRATEGY
+  File "object_SSFEFormMain.pyo", line 22954, in func_Get_Config_Data__SAMPLING_STRATEGY
+IndexError: list index out of range

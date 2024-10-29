@@ -1,0 +1,1641 @@
+
+----------------- SimGeneralMessage - BEGIN  ----------------------------------------------------------------------------
+Replicate Run Started: 2019-09-06 14:07:05
+
+----------------- SharkSimOperation properties - BEGIN  -----------------------------------------------------------------
+
+ Suppress Burn-in output             : True
+ Loci to report Ne for (if enabled)  : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+ Suppress Demographic Ne reporting   : False
+ Suppress LDNe reporting             : False
+ Suppress Temporal FS_P1_Ne reporting: False
+ Suppress Temporal FS_P2_Ne reporting: False
+
+ Population size                     : 1400
+ Burn-in length (years)              : 56
+ Simulation Length (years, months)   : 55, 8
+ Simulated potential fertilisations  : 55
+
+ Initial population age scheme       : 3
+ Male sex ratio (initial & ongoing)  : 0.5
+ Mating scheme                       : 25
+ Parturition month (Gestation length): 5
+
+ Maximum age (truly Max Age-0.1)     : 28
+ Minimal mating age                  : 8
+ Maximal mating age                  : 28
+ Predicted Breeding Population Size  : 1000
+ Mean number of offspring per individual (Poisson distribution)
+                                     : 1
+ List mating distribution:           : [22, 0.5, 10.0]
+ Number of loci                      : 100
+ Number of alleles per loci          : 1
+ Loci allele frequencies scheme      : 2
+ Loci allele frequencies             : []
+
+ Output file                         : NG_1_3_0_6_a1_{1_100_1_25_55.8_1400_2_1_28_28_8_1000}.ped.txt
+ Number of Replicates                : 1
+ Current Replicate                   : 1
+
+----------------- SharkSimOperation properties - END    -----------------------------------------------------------------
+
+----------------- SharkSimOperation Life Stage Definitions - BEGIN ------------------------------------------------------
+
+Total the individuals in each life stage per year
+
+ Sub-adult               - L0: age <  8
+ Reproductive adult      - L1: age >= 8 and age =< 27.9       [age < maxMatingAge]
+ Post-reproductive adult - L2: age >= 28 and age =< 27.9       [maxMatingAge < age < maxAge]
+ Mort!                   - L3: age >= 28                      [age > maxAge] DEAD but only zeroed at Parturition 
+
+----------------- SharkSimOperation Life Stage Definitions - END    -----------------------------------------------------
+
+ method_InitialisePopulations - listAgesInMonths:[5, 17, 29, 41, 53, 65, 77, 89, 101, 113, 125, 137, 149, 161, 173, 185, 197, 209, 221, 233, 245, 257, 269, 281, 293, 305, 317, 329]
+
+ method_InitialisePopulations - Numbers per age in months: OrderedDict([(5.0, 50), (17.0, 50), (29.0, 50), (41.0, 50), (53.0, 50), (65.0, 50), (77.0, 50), (89.0, 50), (101.0, 50), (113.0, 50), (125.0, 50), (137.0, 50), (149.0, 50), (161.0, 50), (173.0, 50), (185.0, 50), (197.0, 50), (209.0, 50), (221.0, 50), (233.0, 50), (245.0, 50), (257.0, 50), (269.0, 50), (281.0, 50), (293.0, 50), (305.0, 50), (317.0, 50), (329.0, 50)])
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>> BurnIn - START   >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+> Running Burn-in fertilisations...
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:05 > TSLM:0:00:00.258000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:05 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:05 > TSLM:0:00:00.116000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:05 > TSLM:0:00:00.037000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.117000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.016000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.132000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.115000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.107000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.112000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.103000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.018000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.101000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.120000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:06 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.104000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.012000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.105000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.104000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.102000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.106000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.012000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.106000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.012000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.108000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.018000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.107000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:07 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.106000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.108000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.110000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.107000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.105000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.129000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.115000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:08 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.108000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.012000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.111000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.108000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.115000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:09 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.110000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.110000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.120000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.111000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.113000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:10 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.143000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.012000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.111000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.129000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.113000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.112000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:11 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.118000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.116000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.112000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.013000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.014000 
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.109000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.014000 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>> BurnIn - END   >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+----------------- SharkSim GeneralMessage - END    ----------------------------------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>> Simulation - START   >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+> Running Simulation fertilisations...
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.398000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:12 > TSLM:0:00:00.015000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:13 > TSLM:0:00:00.036000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:13 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:13 > TSLM:0:00:00.455000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:13 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:13 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:13 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.487000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.480000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:14 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.513000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.454000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:15 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.456000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.486000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:16 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.489000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.482000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:17 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00.464000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00.481000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:18 > TSLM:0:00:00 ------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.458000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.490000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:19 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.459000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.024000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.482000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:20 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.462000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.482000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:21 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.464000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.459000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:22 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.485000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.460000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:23 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.487000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.457000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:24 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.487000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.460000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:25 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.488000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.449000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:26 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.478000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.024000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.449000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.015000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:27 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.449000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.050000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.447000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:28 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.448000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.015000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.024000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.478000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:29 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.450000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.015000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.024000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.485000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:30 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.456000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.485000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:31 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.451000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.016000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.477000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:32 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.449000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.024000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.470000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:33 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.449000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.024000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.456000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:34 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.476000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.466000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:35 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.482000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.450000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:36 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.484000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.031000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.467000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.013000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.027000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:37 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:38 > TSLM:0:00:00.481000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:38 > TSLM:0:00:00.012000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:38 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:38 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:38 > TSLM:0:00:00.476000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:38 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:39 > TSLM:0:00:00.026000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:39 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:39 > TSLM:0:00:00.480000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:39 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:39 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:39 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:39 > TSLM:0:00:00.459000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:40 > TSLM:0:00:00.015000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:40 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:40 > TSLM:0:00:00.002000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:40 > TSLM:0:00:00.449000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:40 > TSLM:0:00:00.040000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:40 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:40 > TSLM:0:00:00.001000 -----
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality- BEGIN ------------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Male by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:41 > TSLM:0:00:00.452000 
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality- BEGIN ----------------------------------------
+
+----------------- SharkSim GeneralMessage- BEGIN ------------------------------------------------------------------------
+
+----------------- Remove Indivs(True) of Sex Female by COMBINED Mortality - END -  > DTN:2019-09-06 14:07:41 > TSLM:0:00:00.014000 
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - BEGIN -  > DTN:2019-09-06 14:07:41 > TSLM:0:00:00.025000 ---
+
+----------------- Gathering Post-Fertilisation AgeNe Stats - END -  > DTN:2019-09-06 14:07:41 > TSLM:0:00:00.002000 -----
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>> Simulation - END   >>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+----------------- SharkSim GeneralMessage - END    ----------------------------------------------------------------------
+
+----------------- Saving Population - BEGIN -  > DTN:2019-09-06 14:07:42 > TSLM:0:00:00 ---------------------------------
+
+----------------- SimGeneralMessage - BEGIN  ----------------------------------------------------------------------------
+Replicate Run Started: 2019-09-06 14:07:05
+
+----------------- SimGeneralMessage - BEGIN  ----------------------------------------------------------------------------
+Replicate Run Finished: 2019-09-06 14:07:42
+
+Replicate Run took: 0:00:37.232000
