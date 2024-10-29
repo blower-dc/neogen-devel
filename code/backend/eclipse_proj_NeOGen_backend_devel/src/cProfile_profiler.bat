@@ -1,0 +1,1 @@
+python -m cProfile main.py > cProfile.txt

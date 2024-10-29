@@ -1,0 +1,20 @@
+2017-05-19 16:01:30,492 log_Default_Display INFO   SSFERunHandler : Log initialised: Default_Display_Log
+2017-05-19 16:01:30,558 log_Default_Display ERROR  object_SSFEFormMain : ; object_SSFEFormMain.pyo.func_Read_Config_File ;line: 23741 ; !!UNEXP_ERR!! ; Non-existant config file: 
+  File "NOGP.py", line 568, in <module>
+
+  File "NOGP.py", line 553, in func_Main
+
+  File "SSFERunHandler.pyo", line 207, in func_Run_Start
+
+  File "SSFERunHandler.pyo", line 114, in func_Run_Initiation
+
+  File "SSFERunHandler.pyo", line 184, in func_Run_Processing
+
+  File "SSFEGUIHandler.pyo", line 62, in func_Main
+
+  File "object_SSFEFormMain.pyo", line 158, in __init__
+
+  File "object_SSFEFormMain.pyo", line 23741, in func_Read_Config_File
+
+  File "object_SSFEFormMain.pyo", line 23915, in func_Error_Handler__Caught_Exceptions
+

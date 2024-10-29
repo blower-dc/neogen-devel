@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>663</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox_11">
+      <property name="title">
+       <string>Project</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_8"/>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_35">
+         <property name="text">
+          <string>Project:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>10</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QToolBox" name="toolBox">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page_6">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>754</width>
+            <height>394</height>
+           </rect>
+          </property>
+          <attribute name="label">
+           <string>Step 1 - Create / Modify Scenario</string>
+          </attribute>
+          <widget class="QGroupBox" name="groupBox_18">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>691</width>
+             <height>331</height>
+            </rect>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="title">
+            <string>Scenario</string>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+           <widget class="QLabel" name="label_36">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>46</width>
+              <height>13</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Scenario:</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="lineEdit_4">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>20</y>
+              <width>241</width>
+              <height>20</height>
+             </rect>
+            </property>
+           </widget>
+           <widget class="QTabWidget" name="tabWidget_3">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>60</y>
+              <width>671</width>
+              <height>231</height>
+             </rect>
+            </property>
+            <property name="currentIndex">
+             <number>3</number>
+            </property>
+            <widget class="QWidget" name="tab_6">
+             <attribute name="title">
+              <string>Life-history</string>
+             </attribute>
+             <widget class="QGroupBox" name="groupBox_19">
+              <property name="geometry">
+               <rect>
+                <x>320</x>
+                <y>20</y>
+                <width>331</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Offspring:</string>
+              </property>
+              <widget class="QComboBox" name="comboBox_4">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>30</y>
+                 <width>141</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_25">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>30</y>
+                 <width>151</width>
+                 <height>101</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_25">
+                <item>
+                 <widget class="QLabel" name="label_38">
+                  <property name="text">
+                   <string>Offspring per litter distribution:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_39">
+                  <property name="text">
+                   <string>Number:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_40">
+                  <property name="text">
+                   <string>Mean:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_41">
+                  <property name="text">
+                   <string>Standard Deviation:</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_26">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>60</y>
+                 <width>86</width>
+                 <height>80</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_26">
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_27">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_28">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_29">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_27">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>60</y>
+                 <width>51</width>
+                 <height>74</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_27">
+                <item>
+                 <widget class="QSpinBox" name="spinBox_23"/>
+                </item>
+                <item>
+                 <widget class="QDoubleSpinBox" name="doubleSpinBox_5"/>
+                </item>
+                <item>
+                 <widget class="QDoubleSpinBox" name="doubleSpinBox_6"/>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_20">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>301</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Ageing:</string>
+              </property>
+              <widget class="QWidget" name="layoutWidget_28">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>30</y>
+                 <width>107</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_28">
+                <item>
+                 <widget class="QLabel" name="label_42">
+                  <property name="text">
+                   <string>Maximum Age:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_43">
+                  <property name="text">
+                   <string>Maximum Mating Age:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_44">
+                  <property name="text">
+                   <string>MinimumMating  Age:</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_29">
+               <property name="geometry">
+                <rect>
+                 <x>130</x>
+                 <y>30</y>
+                 <width>86</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_29">
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_31">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_32">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_33">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_30">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>29</y>
+                 <width>44</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_30">
+                <item>
+                 <widget class="QSpinBox" name="spinBox_24"/>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_25"/>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_27"/>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_7">
+             <attribute name="title">
+              <string>Demography</string>
+             </attribute>
+             <widget class="QGroupBox" name="groupBox_21">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>20</y>
+                <width>301</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>GroupBox</string>
+              </property>
+              <widget class="QLabel" name="label_45">
+               <property name="geometry">
+                <rect>
+                 <x>20</x>
+                 <y>30</y>
+                 <width>81</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Population size:</string>
+               </property>
+              </widget>
+              <widget class="QSlider" name="horizontalSlider_34">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>30</y>
+                 <width>84</width>
+                 <height>19</height>
+                </rect>
+               </property>
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+              <widget class="QSpinBox" name="spinBox_28">
+               <property name="geometry">
+                <rect>
+                 <x>200</x>
+                 <y>30</y>
+                 <width>49</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_22">
+              <property name="geometry">
+               <rect>
+                <x>320</x>
+                <y>20</y>
+                <width>311</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Age cohort survival:</string>
+              </property>
+              <widget class="QPushButton" name="pushButton_6">
+               <property name="geometry">
+                <rect>
+                 <x>30</x>
+                 <y>30</y>
+                 <width>261</width>
+                 <height>23</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Edit age cohort survival rates</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_8">
+             <attribute name="title">
+              <string>Genetics</string>
+             </attribute>
+             <widget class="QLabel" name="label_8">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>20</y>
+                <width>91</width>
+                <height>16</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Number of Loci:</string>
+              </property>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_23">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>50</y>
+                <width>331</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Alleles per locus</string>
+              </property>
+              <widget class="QComboBox" name="comboBox_5">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>30</y>
+                 <width>141</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_31">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>32</y>
+                 <width>138</width>
+                 <height>101</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_31">
+                <item>
+                 <widget class="QLabel" name="label_46">
+                  <property name="text">
+                   <string>Alleles per locus distribution:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_47">
+                  <property name="text">
+                   <string>Number:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_48">
+                  <property name="text">
+                   <string>Mean:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_49">
+                  <property name="text">
+                   <string>Standard Deviation:</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_32">
+               <property name="geometry">
+                <rect>
+                 <x>160</x>
+                 <y>63</y>
+                 <width>86</width>
+                 <height>80</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_32">
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_35">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_36">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_37">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_33">
+               <property name="geometry">
+                <rect>
+                 <x>250</x>
+                 <y>60</y>
+                 <width>51</width>
+                 <height>74</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_33">
+                <item>
+                 <widget class="QSpinBox" name="spinBox_29"/>
+                </item>
+                <item>
+                 <widget class="QDoubleSpinBox" name="doubleSpinBox_7"/>
+                </item>
+                <item>
+                 <widget class="QDoubleSpinBox" name="doubleSpinBox_8"/>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+             <widget class="QSlider" name="horizontalSlider_38">
+              <property name="geometry">
+               <rect>
+                <x>110</x>
+                <y>20</y>
+                <width>84</width>
+                <height>16</height>
+               </rect>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+             <widget class="QSpinBox" name="spinBox_30">
+              <property name="geometry">
+               <rect>
+                <x>200</x>
+                <y>20</y>
+                <width>49</width>
+                <height>16</height>
+               </rect>
+              </property>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_24">
+              <property name="geometry">
+               <rect>
+                <x>350</x>
+                <y>50</y>
+                <width>311</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Allele Frequencies</string>
+              </property>
+              <widget class="QLabel" name="label_50">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>30</y>
+                 <width>136</width>
+                 <height>18</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Allele frequency distribution:</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_6">
+               <property name="geometry">
+                <rect>
+                 <x>154</x>
+                 <y>30</y>
+                 <width>141</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_51">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>70</y>
+                 <width>111</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Allele frequency file:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_2">
+               <property name="geometry">
+                <rect>
+                 <x>155</x>
+                 <y>70</y>
+                 <width>121</width>
+                 <height>20</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QToolButton" name="toolButton_2">
+               <property name="geometry">
+                <rect>
+                 <x>280</x>
+                 <y>70</y>
+                 <width>25</width>
+                 <height>19</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>...</string>
+               </property>
+              </widget>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_2">
+             <attribute name="title">
+              <string>Sampling Strategy</string>
+             </attribute>
+             <widget class="QGroupBox" name="groupBox_25">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>20</y>
+                <width>301</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Sample size range :</string>
+              </property>
+              <widget class="QWidget" name="layoutWidget_34">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>30</y>
+                 <width>107</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_34">
+                <item>
+                 <widget class="QLabel" name="label_52">
+                  <property name="text">
+                   <string>Maximum Samples:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_53">
+                  <property name="text">
+                   <string>Minimum Samples</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_54">
+                  <property name="text">
+                   <string>Sample size increment</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_35">
+               <property name="geometry">
+                <rect>
+                 <x>130</x>
+                 <y>30</y>
+                 <width>86</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_35">
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_39">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_40">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_41">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_36">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>29</y>
+                 <width>44</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_36">
+                <item>
+                 <widget class="QSpinBox" name="spinBox_31"/>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_32"/>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_33"/>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_26">
+              <property name="geometry">
+               <rect>
+                <x>340</x>
+                <y>20</y>
+                <width>301</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Locus number range:</string>
+              </property>
+              <widget class="QWidget" name="layoutWidget_37">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>30</y>
+                 <width>122</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_37">
+                <item>
+                 <widget class="QLabel" name="label_55">
+                  <property name="text">
+                   <string>Maximum loci:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_56">
+                  <property name="text">
+                   <string>Minimum loci:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_57">
+                  <property name="text">
+                   <string>Locus number increment:</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_38">
+               <property name="geometry">
+                <rect>
+                 <x>130</x>
+                 <y>30</y>
+                 <width>86</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_38">
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_42">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_43">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSlider" name="horizontalSlider_44">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="layoutWidget_39">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>29</y>
+                 <width>44</width>
+                 <height>81</height>
+                </rect>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_39">
+                <item>
+                 <widget class="QSpinBox" name="spinBox_34"/>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_35"/>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="spinBox_36"/>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="geometry">
+             <rect>
+              <x>550</x>
+              <y>300</y>
+              <width>131</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Save scenario</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_7">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>754</width>
+            <height>394</height>
+           </rect>
+          </property>
+          <attribute name="label">
+           <string>Step 2 - Run Scenario</string>
+          </attribute>
+          <widget class="QGroupBox" name="groupBox_27">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>681</width>
+             <height>161</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Run scenario</string>
+           </property>
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="geometry">
+             <rect>
+              <x>530</x>
+              <y>120</y>
+              <width>131</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Run scenario</string>
+            </property>
+           </widget>
+           <widget class="QWidget" name="layoutWidget_40">
+            <property name="geometry">
+             <rect>
+              <x>290</x>
+              <y>30</y>
+              <width>44</width>
+              <height>74</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_40">
+             <item>
+              <widget class="QSpinBox" name="spinBox_37"/>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spinBox_38"/>
+             </item>
+             <item>
+              <widget class="QSpinBox" name="spinBox_39"/>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="layoutWidget_41">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>30</y>
+              <width>86</width>
+              <height>80</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_41">
+             <item>
+              <widget class="QSlider" name="horizontalSlider_45">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="horizontalSlider_46">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QSlider" name="horizontalSlider_47">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="layoutWidget_42">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>30</y>
+              <width>158</width>
+              <height>71</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_42">
+             <item>
+              <widget class="QLabel" name="label_58">
+               <property name="text">
+                <string>Burn-in length:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_59">
+               <property name="text">
+                <string>Temporal evolution length:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_60">
+               <property name="text">
+                <string>Number of population replicates:</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_8">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>754</width>
+            <height>394</height>
+           </rect>
+          </property>
+          <attribute name="label">
+           <string>Step 3 - Create / Modify Sampling Strategy</string>
+          </attribute>
+          <widget class="QGroupBox" name="groupBox_28">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>10</y>
+             <width>691</width>
+             <height>241</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Sampling strategy</string>
+           </property>
+           <widget class="QGroupBox" name="groupBox_29">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>30</y>
+              <width>301</width>
+              <height>151</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>Sample size range</string>
+            </property>
+            <widget class="QWidget" name="layoutWidget_43">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>107</width>
+               <height>81</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_43">
+              <item>
+               <widget class="QLabel" name="label_61">
+                <property name="text">
+                 <string>Maximum Samples:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_62">
+                <property name="text">
+                 <string>Minimum Samples</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_63">
+                <property name="text">
+                 <string>Sample size increment</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget_44">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>30</y>
+               <width>86</width>
+               <height>81</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_44">
+              <item>
+               <widget class="QSlider" name="horizontalSlider_48">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="horizontalSlider_49">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="horizontalSlider_50">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget_45">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>29</y>
+               <width>44</width>
+               <height>81</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_45">
+              <item>
+               <widget class="QSpinBox" name="spinBox_40"/>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="spinBox_41"/>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="spinBox_42"/>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="groupBox_30">
+            <property name="geometry">
+             <rect>
+              <x>340</x>
+              <y>30</y>
+              <width>301</width>
+              <height>151</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>Locus number range</string>
+            </property>
+            <widget class="QWidget" name="layoutWidget_46">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>122</width>
+               <height>81</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_46">
+              <item>
+               <widget class="QLabel" name="label_64">
+                <property name="text">
+                 <string>Maximum loci:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_65">
+                <property name="text">
+                 <string>Minimum loci:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_66">
+                <property name="text">
+                 <string>Locus number increment:</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget_47">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>30</y>
+               <width>86</width>
+               <height>81</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_47">
+              <item>
+               <widget class="QSlider" name="horizontalSlider_51">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="horizontalSlider_52">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QSlider" name="horizontalSlider_53">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget_48">
+             <property name="geometry">
+              <rect>
+               <x>220</x>
+               <y>29</y>
+               <width>44</width>
+               <height>81</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_48">
+              <item>
+               <widget class="QSpinBox" name="spinBox_43"/>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="spinBox_44"/>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="spinBox_45"/>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="geometry">
+             <rect>
+              <x>540</x>
+              <y>200</y>
+              <width>141</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Save sampling strategy</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_9">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>754</width>
+            <height>394</height>
+           </rect>
+          </property>
+          <attribute name="label">
+           <string>Step 4 - Run Sampling Strategy</string>
+          </attribute>
+          <widget class="QGroupBox" name="groupBox_31">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>10</y>
+             <width>681</width>
+             <height>161</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Run sampling strategy</string>
+           </property>
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="geometry">
+             <rect>
+              <x>530</x>
+              <y>120</y>
+              <width>131</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Run sampling strategy</string>
+            </property>
+           </widget>
+           <widget class="QSlider" name="horizontalSlider_54">
+            <property name="geometry">
+             <rect>
+              <x>150</x>
+              <y>30</y>
+              <width>84</width>
+              <height>19</height>
+             </rect>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_67">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>30</y>
+              <width>156</width>
+              <height>19</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Number of Ne replicates:</string>
+            </property>
+           </widget>
+           <widget class="QSpinBox" name="spinBox_46">
+            <property name="geometry">
+             <rect>
+              <x>240</x>
+              <y>30</y>
+              <width>42</width>
+              <height>20</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_10">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>754</width>
+            <height>394</height>
+           </rect>
+          </property>
+          <attribute name="label">
+           <string>Step 5 - Review Sampling Strategy Results</string>
+          </attribute>
+          <widget class="QGroupBox" name="groupBox_32">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>10</y>
+             <width>681</width>
+             <height>291</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Sampling strategy results</string>
+           </property>
+           <widget class="QFrame" name="frame_2">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>20</y>
+              <width>641</width>
+              <height>251</height>
+             </rect>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Sunken</enum>
+            </property>
+            <widget class="QTextBrowser" name="textBrowser_3">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>621</width>
+               <height>231</height>
+              </rect>
+             </property>
+             <property name="html">
+              <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/test/Untitled.png&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>792</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="test.qrc"/>
+ </resources>
+ <connections/>
+</ui>

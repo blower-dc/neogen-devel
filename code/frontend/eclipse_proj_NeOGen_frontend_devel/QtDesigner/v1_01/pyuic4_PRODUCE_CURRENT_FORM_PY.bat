@@ -1,0 +1,1 @@
+pyuic4_DCB.bat SharkSimFE_CURRENT_FORM.ui -o CURRENT_FORM.py

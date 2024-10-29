@@ -1,0 +1,32 @@
+2018-01-29 18:07:52,372 log_Default_Display INFO   SSFERunHandler : Log initialised: Default_Display_Log
+2018-01-29 18:07:52,573 log_Default_Display ERROR  object_SSFEFormMain : ; object_SSFEFormMain.py.func_Read_OPTION ;line: 22224 ; !!UNEXP_ERR!! ; Non-existant OPTION error READING config_parser (SETTINGS) ; SECTION:Sampling_Strategy_Run_Settings; OPTION :Sampling_Strategy_Run_Settings_LDNe_External_Process_Run_Time_Max_Seconds__Default_Value
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\NOGP.py", line 507, in <module>
+    func_Main(sys.argv[1:])
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\NOGP.py", line 492, in func_Main
+    obj_SSRun.func_Run_Start()
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFERunHandler.py", line 207, in func_Run_Start
+    self.func_Run_Initiation()
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFERunHandler.py", line 114, in func_Run_Initiation
+    self.func_Run_Processing(obj_SSFEParams)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFERunHandler.py", line 184, in func_Run_Processing
+    obj_GUI.func_Main()
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\SSFEGUIHandler.py", line 62, in func_Main
+    , None)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 161, in __init__
+    self.func_Get_Config_Data__SETTINGS(self.obj_Config_Settings)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 20455, in func_Get_Config_Data__SETTINGS
+    bool_Option_Exists, value_Option = self.func_Read_OPTION(True, False, obj_Config, str_Section, str_Option, value_Type)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 22224, in func_Read_OPTION
+    self.func_Error_Handler__Caught_Exceptions(int_Stack_Trace_Level, str_Message_Text)
+
+  File "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\object_SSFEFormMain.py", line 24024, in func_Error_Handler__Caught_Exceptions
+    stack = traceback.extract_stack()
+

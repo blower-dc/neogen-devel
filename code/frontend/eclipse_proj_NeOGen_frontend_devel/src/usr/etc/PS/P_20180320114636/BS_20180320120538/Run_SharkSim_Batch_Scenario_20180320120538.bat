@@ -1,0 +1,2 @@
+"Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\usr\usr\backend\bin\neogen.exe" -i "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\usr\etc\PS\P_20180320114636\BS_20180320120538\Batch_Scenario_20180320120538.ini" -o "Q:\CODE\NOG\v1_3_0_6_a1\devel\RS_SRC__NOG_v1_3_0_6_a1_devel\proj_Py2_NeOGenFE_v1_3_0_6_a1_devel\src\usr\var\backend\work\BS_20180320120538" -p 0
+pause
