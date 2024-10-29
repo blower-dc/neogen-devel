@@ -1,0 +1,15 @@
+//This script replaces all resources
+//in MyProg.exe with all the resources
+//in MyProgNew.res
+//This script updates 2 bitmaps and an
+//icon in MyProg.exe ...
+	
+[FILENAMES]
+Exe=    Main.exe
+SaveAs= NOGP.exe
+Log= rh_log_NOGP.log
+	
+[COMMANDS]
+-addoverwrite NOGP.ico, ICONGROUP,MAINICON,0
+//-delete ,,,            //delete all resources before...
+-add NOGP.res ,,,  //adding all the new resources
