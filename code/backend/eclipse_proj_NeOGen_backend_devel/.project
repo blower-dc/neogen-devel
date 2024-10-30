@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>NeOGen_v1_3_0_6_a1_Py27</name>
+	<name>NeOGen_BACKEND</name>
 	<comment></comment>
 	<projects>
-		<project>DCB_General_Resources_v1_0_0_0_a1_Py27</project>
-		<project>NeOGenFE_v1_3_0_6_a1_Py27</project>
+		<project>NeOGen_SHARED</project>
+		<project>NeOGen_FRONTEND</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -16,10 +16,4 @@
 	<natures>
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
-	<variableList>
-		<variable>
-			<name>DCB_GENERAL_RESOURCES</name>
-			<value>file:/M:/dcb_projects/dcb_general_resources</value>
-		</variable>
-	</variableList>
 </projectDescription>
