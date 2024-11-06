@@ -4,6 +4,10 @@ NAME
 --------------------------
 NeOGen v1.3.0.6_a1
 
+Model your populations demographics:
+![alt text](https://github.com/blower-dc/neogen-devel/blob/main/setup/website_resources/NeOGen-Power__Scenario_Results_Screen_V1.png?raw=true)
+
+Estimate the numbers of samples and loci for accurate Ne estimates:
 ![alt text](https://github.com/blower-dc/neogen-devel/blob/main/setup/website_resources/NeOGen-Power__Sampling_Strategy_Results_Screen_V1.png?raw=true)
 
 AUTHORS
