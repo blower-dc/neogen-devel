@@ -6,8 +6,6 @@ NeOGen v1.3.0.6_a1
 
 ![alt text](https://github.com/blower-dc/neogen-devel/blob/main/setup/website_resources/NeOGen-Power__Sampling_Strategy_Results_Screen_V1.png?raw=true)
 
-[embed]https://github.com/blower-dc/neogen-devel/blob/main/setup/website_resources/NeOGen-Power_v1_3_0_6_a1__Guide_0__User_Manual_v1_1_3.pdf[/embed]
-
 AUTHORS
 --------------------------
 Dean C. Blower, Cynthia Riginos, & Jennifer Ovenden.
@@ -48,6 +46,10 @@ INSTALL INSTRUCTIONS
 4. Follow the prompts to finalise the installation. Use the default values for best results.
 5. Double-click the NeOGen-Power shortcut (on the desktop, in the start menu, or in the install folder) to start NeOGen.  Don’t start it with the NOGP.exe.
 6. You're done! Start exploring the wonder of NeOGen. Reading the guides will help ;o). The user manual (i.e. help file, guide 0) is displayed alongside the main app when its launched.
+
+USER GUIDE
+--------------------------
+https://github.com/blower-dc/neogen-devel/blob/main/setup/website_resources/NeOGen-Power_v1_3_0_6_a1__Guide_0__User_Manual_v1_1_3.pdf
 
 UNINSTALL INSTRUCTIONS
 -------------------------
