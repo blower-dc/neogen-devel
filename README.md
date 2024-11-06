@@ -1,8 +1,7 @@
 # neogen-devel
 
-NAME
+NeOGen v1.3.0.6_a1 
 --------------------------
-NeOGen v1.3.0.6_a1
 
 Model your populations demographics:
 
