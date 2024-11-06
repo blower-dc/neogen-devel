@@ -6,6 +6,8 @@ NeOGen v1.3.0.6_a1
 
 ![alt text](https://github.com/blower-dc/neogen-devel/blob/main/setup/website_resources/NeOGen-Power__Sampling_Strategy_Results_Screen_V1.png?raw=true)
 
+[embed]https://github.com/blower-dc/neogen-devel/blob/main/setup/website_resources/NeOGen-Power_v1_3_0_6_a1__Guide_0__User_Manual_v1_1_3.pdf[/embed]
+
 AUTHORS
 --------------------------
 Dean C. Blower, Cynthia Riginos, & Jennifer Ovenden.
